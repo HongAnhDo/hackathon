@@ -1,0 +1,230 @@
+.partner-form{
+    background: #fff;
+    padding-bottom: 20px ;
+}
+.form-content {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto !important;
+    margin-top: 20px !important;
+}
+.partner-form table {
+    table-layout: fixed;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+.partner-form table td, th {
+    padding: 8px;
+    text-align: center;
+}
+.partner-form table th {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    color: #107b82;
+}
+.item3 {
+    float: left;
+    width: 30%;
+    height: 190px;
+    background: #fff;
+    margin-right: 3%;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 14px;
+    padding: 5px;
+    padding-top: 40px;
+    margin-top: 50px;
+}
+.item-img {
+    width: 80px;
+    position: absolute;
+    margin-left: 125px;
+}
+.partner-form .body-about {
+    padding-bottom: 30px;
+
+}
+.item4 {
+    /* float: left;
+    width: 22%;
+    background: #fff;
+    margin-right: 3%;
+    text-align: center; */
+    font-size: 14px;
+    /* padding: 5px; */
+    padding-top: 40px;
+    margin-top: 50px;
+}
+.item4-img {
+    width: 80px;
+    position: absolute;
+    margin-left: -3%;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 22% 22% 22% 22%;
+    grid-gap: 4%;
+    /* padding: 10px; */
+  }
+  .grid-container>div {
+    text-align: center;
+    padding:20px 0;
+    font-size: 30px;
+  }
+  .grid-container>div p {
+      font-size: 24px;
+      color: #107b82;
+      font-weight: 500;
+      margin-bottom: 7px;
+  }
+.partner-form-container{
+    width: 100%;
+}
+.partner-form-container .input-tabs{
+      width: 410px !important;
+  }
+.partner-form-container textarea{
+    width: 410px !important;
+    height: auto !important;
+    opacity: 1;
+}
+.partner-form-container .autocomplete-dropdown-container {
+    width: 410px !important;
+    text-align: left !important;
+}
+.partner-form-container .form-error {
+    text-align: left;
+}
+.btn-disabled {
+    cursor: not-allowed;
+    opacity: .65;
+    background: #bcbcbc;
+    color: #fff;
+    padding: 14px 1.2rem;
+    border: none;
+    min-width: 150px;
+    font-weight: 500;
+    min-width: 129px !important;
+    display: inline-block;
+    line-height: 1.25;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    font-size: 1rem;
+    border-radius: .25rem;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+.partner-back {
+    font-size: 15px;
+    color: #00363b;
+    font-weight: bold;
+    padding-top: 10px;
+    margin-left: 40px;
+}
+.partner-button {
+    width: 330px;
+    height: 48px;
+    text-align: center;
+}
+
+.extra-partner {
+    height: 190px;
+}
+.img-partner1 {
+    width: 40%;
+    margin-right: 10%;
+    height: 100%;
+}
+
+@media screen and (max-width: 992px){
+    .partner-form .body-about img {
+        display: -ms-inline-flexbox;
+        display: inline-flex;
+    }
+    .item3 {
+        height: 670px;
+    }
+    .item-img {
+        width: 60px;
+        position: absolute;
+        margin-left: 14px;
+    }
+    .item4-img {
+        width: 60px;
+        position: absolute;
+        margin-left: -9%;
+    }
+    .partner-form-container .input-tabs {
+        width: 305px !important;
+    }
+    .partner-form-container textarea{
+        width: 305px !important;
+        height: auto !important;
+        opacity: 1;
+    }
+    .partner-button {
+        display: inherit;
+        width: 305px;
+    }
+    .partner-back {
+        margin-left: 0px;
+        width: 305px;
+    }
+    .extra-partner {
+        height: 260px;
+    }
+    .img-partner1 {
+        display: none !important;
+    }
+}
+@media screen and (max-width: 768px){
+    .extra-partner {
+        height: 160px;
+    }
+    .item-img {
+        margin-left: 70px;
+    }
+    .item3 {
+        height: 290px;
+    }
+    .item4-img {
+        margin-left: -4%;
+    }
+}
+@media screen and (max-width: 414px){
+    .extra-partner {
+        height: 260px;
+    }
+    .position-relative.form-group {
+        margin-left: 28px;
+    }
+
+    .item-img {
+        margin-left: 25px;
+    }
+    .item3 {
+        height: 600px;
+    }
+
+    .partner-form-container .input-tabs{
+        width: 250px !important;
+    }
+    .partner-form-container textarea{
+      width: 250px !important;
+      height: auto !important;
+      opacity: 1;
+    }
+    .partner-form-container .autocomplete-dropdown-container {
+      width: 250px !important;
+      text-align: left !important;
+    }
+}
+@media screen and (max-width: 375px){
+    .position-relative.form-group {
+        margin: 10px;
+    }
+}

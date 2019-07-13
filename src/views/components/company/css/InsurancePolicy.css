@@ -1,0 +1,131 @@
+.policy-purpose {
+    position: absolute;
+    display: inline-flex;
+    width: 92%;
+    height: 323px;
+    top: 243px;
+    z-index: 100;
+    height: auto;
+    margin: 0 4% 0 5%;
+    mix-blend-mode: undefined;
+    border-radius: 8px;
+    background-color: #00363b;
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.2);
+}
+
+.des-purpose {
+    width: 95%;
+    padding: 3% 3% 3% 3%;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.body-limit {
+    width: 88%;
+    margin: 0 6% 0 6%;
+    display: inline-flex;
+    margin-top: 50px;
+}
+
+.body-time {
+    width: 88%;
+    margin: 0 6% 0 6%;
+    display: inline-flex;
+    margin-top: 50px;
+}
+
+.title-child-policy {
+    font-size: 30px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #00363b;
+    font-family: "Montserrat";
+    padding-left: 40px;
+}
+.body-limit .child-right {
+    width: 100%;
+}
+p.title-child-policy {
+    text-align: left;
+    padding: 0px;
+}
+.extra-policy{
+    height: 580px;
+}
+
+@media screen and (max-width: 2000px) {
+    .des-purpose {
+        width: 95%;
+        padding: 3% 3% 3% 3%;
+        font-family: "Montserrat";
+        font-size: 20px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 2.2;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ffffff;
+        font-weight: 500;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .des-purpose {
+        width: 95%;
+        padding: 3% 3% 3% 3%;
+        font-family: "Montserrat";
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 2.2;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ffffff;
+        font-weight: 500;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .extra-policy{
+        height: 650px;
+    }
+    .des-purpose {
+        width: 100%;
+    }
+    .policy-purpose img {
+        display: none;
+    }
+    .policy-purpose {
+        display: inline;
+        width: 98%;
+    }
+    .body-limit img {
+        display: none;
+    }
+    .child-right {
+        width: 100%;
+    }
+    .body-time img {
+        display: none;
+    }
+    
+}
+
+.video-slide {
+    width: 100%;
+    height: 230px;
+}

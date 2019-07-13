@@ -1,0 +1,21 @@
+.login {
+    cursor: pointer;
+    line-height: 57px;
+    display: block;
+    font-size: 14px;
+    border-bottom: 3px solid #fff;
+}
+.login :hover {
+    color: #00363b;
+    border-bottom: 3px solid #00363b
+}
+@media only screen and (max-width: 991px){
+    .login {
+        color: #fff;
+        display: block;
+        line-height: 45px;
+        text-align: center;
+        border-bottom: 1px solid #e0e0e096;
+        font-size: 16px;
+    }
+}

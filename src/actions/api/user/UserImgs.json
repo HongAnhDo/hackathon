@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "name": "cmnd",
+        "url": "/users/upload-cmnd"
+    },
+    {
+        "id": 2,
+        "name": "so_ho_khau",
+        "url": "/users/upload-so-ho-khau"
+    },
+    {
+        "id": 3,
+        "name": "license",
+        "url": "/users/upload-license"
+    }
+]

@@ -1,0 +1,852 @@
+{
+    "header": {
+        "logo": "hackathon - Vehicle rental and sharing platform in Vietnam"
+    },
+    "background_area": {
+        "quick_book": {
+            "input": {
+                "btn": "Find a vehicle",
+                "date_drop": "Drop-off Date",
+                "date_pick": "Pick-up Date",
+                "time_drop": "Drop-off Time",
+                "time_pick": "Pick up Time"
+            },
+            "province": {
+                "hcm": "Hồ Chí Minh",
+                "hn": "Hà Nội",
+                "title": "Pick-up Location"
+            },
+            "title": "Rent a vehicle?",
+            "type": {
+                "car": "Car",
+                "motor": "Motor"
+            },
+            "error": {
+                "not_enough": "You have not entered enough information yet",
+                "vhc_type": "You have not selected a vehicle type",
+                "city": "You have not selected Pick-up Location",
+                "rental_date": "You have not selected a Pick-up Time",
+                "return_date": "You have not selected a Drop-off Time"
+            },
+            "require": {
+                "text1": "You want to",
+                "text2": "Get a ride",
+                "text3": "or",
+                "text4": "Another request",
+                "text5": "booking Limousine ticket"
+            }
+        },
+        "text1": "hackathon - With you all along the way",
+        "text2": "Unlimited travel with hackathon",
+        "text3": "Rent a self-driving vehicle - Be the Master of Your Journey"
+    },
+    "notification": {
+        "title": "Guest has just booked at",
+        "content": {
+            "name": "Name",
+            "phone": "Tel",
+            "price": "Cost",
+            "unit": "d"
+        }
+    },
+    "booking": {
+        "car": "Car",
+        "motor": "Motor",
+        "received_vehicle": {
+            "at_home": "Pick up at home",
+            "at_agency": "Pick up at Supplier Location"
+        }
+    },
+    "footer": {
+        "contact": {
+            "email": "support@hackathon.vn",
+            "phone": "19006022",
+            "title": "Contact us",
+            "name": "hackathon JSC",
+            "address1": "Hanoi: 5th Flr., 166 Hue, Hai Ba Trung",
+            "address2" : "Da Nang: 3rd Flr., 31 Tran Phu, Hai Chau",
+            "address3": "Ho Chi Minh: 7th Flr., AVENIS Building,",
+            "address4": "145 Dien Bien Phu Street, District 1",
+            "contact_email": "contact@hackathon.vn",
+            "contact_phone1": "0903.22.99.06",
+            "contact_phone2": "0903229906",
+            "contact_phone3": "(Zalo/ Viber, 24/7)",
+            "contact_hotline1": "1900636585",
+            "contact_hotline2": "1900.636.585",
+            "contact_hotline3": "(Working time)"
+        },
+        "copyright": {
+            "content": "Copyright © 2018 by hackathon.",
+            "regulations": "Conditions",
+            "rules": "Term"
+        },
+        "introduction": {
+            "about": "About us",
+            "news": "News",
+            "partner": "Supplier Partner",
+            "recruitment": "Recruitment",
+            "title": "Introduction",
+            "certification": "CERTIFICATION"
+        },
+        "policy": {
+            "incident": "Incidents and complaints",
+            "insurance": "Information privacy policy",
+            "partner": "Supplier partner",
+            "service": "Operational conditions",
+            "title": "Policy",
+            "register_promotion": "Subscribe to receive promotions"
+        },
+        "support": {
+            "car_rental": "Rental guide",
+            "handbook": "Self-drive car rental guide",
+            "questions": "Frequently asked questions",
+            "title": "Support",
+            "use": "Guide to vehicle rental",
+            "contract": "Self-driving vehicle rental contract",
+            "blog": "hackathon blog"
+        }
+    },
+    "howitwork_area": {
+        "btn": "See more",
+        "step1": {
+            "content": "Quickly book a vehicle through our website",
+            "title": "Rent a vehicle"
+        },
+        "step2": {
+            "content": "Pick a vehicle up at your home or our dealer",
+            "title": "Receive the vehicle"
+        },
+        "step3": {
+            "content": "All our vehicles meet the safely standard",
+            "title": "Enjoy"
+        },
+        "title": "How to rent a vehicle?"
+    },
+    "media": {
+        "benefit": "The benefits of vehicle sharing",
+        "btn": "Looking for more information",
+        "holiday": "General vehicle holidays",
+        "service": "hackathon - Practical services for the community's benefits",
+        "title": "The press talks about us",
+        "video": "OtoSharing - Car sharing mobile app",
+        "express": "hackathon is in the Top 15 Vietnamese Startup 2018",
+        "hackathon": "The ideal “Booking.com in the self-drive rental car industry”",
+        "startup": "8x entrepreneur and his online sharing platform of self drive car rental service  - Startup VnExpress",
+        "hist": "HIST's Final"
+    },
+    "featured_products": {
+        "only": "Only from",
+        "unit": "VND/day"
+    },
+    "menu": {
+        "account": {
+            "exit": "Log out",
+            "history": "History of car rental",
+            "info": "Personal information",
+            "password": "Change password",
+            "payment": "Payment information"
+        },
+        "btn": "Become our partner",
+        "home": "About us",
+        "login": "Log in",
+        "promotion": "Promotion",
+        "search": "Look up car booking",
+        "support": "Support",
+        "register": "Sign up"
+    },
+    "partner_area": {
+        "title": "Our partner"
+    },
+    "products": {
+        "title": "You might like"
+    },
+    "useful_area": {
+        "convenient": {
+            "content": "Easily search, compare and book your vehicle with just a few clicks",
+            "title": "Convenient"
+        },
+        "opt": {
+            "content": "Hundreds of vehicles are available in many locations throughout the country, suitable for all your purposes",
+            "title": "Many choices"
+        },
+        "price": {
+            "content": "Rent is publicly listed and 10% cheaper than traditional price",
+            "title": "Competitive price"
+        },
+        "security": {
+            "content": "Peace of mind with the insurance package and accident during the vehicle rental",
+            "title": "Insurance"
+        },
+        "support": {
+            "content": "There are customer support staff during the vehicle rental process",
+            "title": "24/7 support"
+        },
+        "title": "The benefits of hackathon",
+        "trust": {
+            "content": "All vehicles have a service life of less than 3 years and are regularly serviced",
+            "title": "Trust"
+        }
+    },
+    "validate": {
+        "email": "Email invalidate",
+        "required": "Obligatory",
+        "phone": "The phone number is incorrect",
+        "password": "Password is too short",
+        "confirm": "Password incorrect",
+        "email_phone": "Email/Phone number is incorrect",
+        "quick_book": "Please enter full information"
+    },
+    "change_password": {
+        "title": "Change password",
+        "pass_old": "Old password",
+        "pass_new": "New password",
+        "pass_confirm": "Enter the password",
+        "placeholder_passold": "Enter your old password...",
+        "placeholder_passnew": "Enter your new password...",
+        "placeholder_confirm": "Enter the password..."
+    },
+    "payment_info": {
+        "title": "BILLING INFORMATION",
+        "btn_add": "Add a payment method"
+    },
+    "history_rental": {
+        "placeholder_comment": "Your feedback",
+        "btn_comment": "Save comment",
+        "info_customer": "CUSTOMER'S INFORMATION",
+        "detail_reservation": "VEHICLE BOOKING DETAILS",
+        "name": "Full name",
+        "phone": "Phone number",
+        "email": "Email",
+        "address_received": "Pickup location",
+        "status": "Status",
+        "payment_form": "Payment method",
+        "code_received": "Ordering car",
+        "value_tax": "Rent cost",
+        "time_rental": "Rental period",
+        "btn_back": "Come back"
+    },
+    "history": {
+        "menu": {
+            "complete": "Completed",
+            "upcoming": "Waiting",
+            "hiring": "Renting",
+            "cancelled": "Cancelled",
+            "type": {
+                "car": "Car",
+                "motor": "Motor"
+            }
+        },
+        "complete": {
+            "code_received": "Boooking code: ",
+            "date_book": "Date set: ",
+            "time": "Time: ",
+            "price_rent": "Rent cost: ",
+            "btn_detail": "Detail",
+            "btn_cancel": "Cancel booking"
+        }
+    },
+    "user_info": {
+        "title": "PERSONAL INFORMATION",
+        "name": "Full name",
+        "phone": "Phone number",
+        "email": "Email",
+        "edit": "Edit",
+        "license": {
+            "title": "License",
+            "add1": "Font of license",
+            "add2": "Back of license"
+        },
+        "change_avatar": "Change avatar",
+        "image": {
+            "update": "Update",
+            "title": "Update avatar",
+            "action": "Upload image"
+        },
+        "cmnd": {
+            "title": "Identity card/ Passport",
+            "add1": "Front of ID/Passport",
+            "add2": "Back of ID/Passport"
+        },
+        "so_ho_khau": {
+            "title": "Household registration book/KT3",
+            "add": "Choose file"
+        }
+    },
+    "register": {
+        "email": {
+            "label": "Email",
+            "placeholder": "Enter your email..."
+        },
+        "phone": {
+            "label": "Phone number",
+            "placeholder": "Enter your phone number..."
+        },
+        "password": {
+            "label": "Password",
+            "placeholder": "Enter your password..."
+        },
+        "confirm": {
+            "label": "Enter the password",
+            "placeholder": "Enter the password..."
+        },
+        "btn_register": "Sign up",
+        "btn_back": "Come back",
+        "note": "optional content"
+    },
+    "login": {
+        "email": {
+            "label": "Email/Phone number",
+            "placeholder": "Enter email/phone number..."
+        },
+        "password": {
+            "label": "Password",
+            "placeholder": "Enter your password...",
+            "forget": "Forgot password"
+        },
+        "btn_login": "Log in",
+        "btn_back": "Come back",
+        "path": "or login with"
+    },
+    "customer_info": {
+        "title": {
+            "head": "Customer's information",
+            "description": "Enter your personal information to conduct book"
+        },
+        "form": {
+            "fullname": {
+                "label": "Full name (*)",
+                "placeholder": "Enter your full name"
+            },
+            "phone": {
+                "label": "Phone number (*)",
+                "placeholder": "Enter your phone number"
+            },
+            "address": {
+                "label": "Pickup address ",
+                "placeholder": "Enter the pickup address"
+            },
+            "email": {
+                "label": "Email (*)",
+                "placeholder": "Enter your email"
+            },
+            "payment": {
+                "label": "Payment methods (*)",
+                "select": "Choose a payment method"
+            },
+            "note": "Note",
+            "btn_next": "Enter to continue",
+            "btn_back": "Come back",
+            "btn_complete": "Complete"
+        }
+    },
+    "process": {
+        "one": "Select vehicle",
+        "two": "See price and procedure",
+        "three": "Customer's information",
+        "four": "Completed"
+    },
+    "complete": {
+        "content": {
+            "title": "SUCCESSFUL BOOKING",
+            "text": {
+                "line1": "Your booking request was recorded.",
+                "line2": "When you book a car or a motorbike, we will confirm its availability within at least 6 hours before your pick-up time. "
+            },
+            "book_code": "Your booking code:",
+            "btn_home": "Back to homepage",
+            "btn_cancel": "Cancel booking",
+            "book_status": "The vehicle is ready",
+            "note": "Note:",
+            "content_note": {
+                "line1": "- Pay before take the vehicle",
+                "line2": "- If you rent a vehicle from 02 days or more, please check the coolant, engine oil to refill.",
+                "line3": "- When the vehicle is operating, watch regularly the signal lights on taplo table, if the incident light, or unusual phenomena vehicles, you must stop to check or notify immediately the lessor vehicle. If not, the lessor will be fully charged vehicle repairs.",
+                "line4": "- Serious observance of road traffic rules and civil, criminal responsibility during car rental.",
+                "line5": "- Pay all cost of gasoline, ferries, parking and fines, by yourself, under the law of Vietnam errors regulations.",
+                "line6": "- In the event that the vehicle lessee is in breach, and is fined, it will be fully liable and the penalty fee."
+            },
+            "content_note_motor": {
+                "l1": "- Prepare all the documents needed for the rental vehicle: ID card, driving license",
+                "l2": "- Select the type of vehicle (number vehicle, motor scooters, motorcycle) suitable to the terrain and your habits.",
+                "l3": "- Check vehicle's quality with the car hire company when picking the car up :  headlights, blinker, mirrors, foot brake, handbrake, intake manifold ...",
+                "l4": "- Carefully read the vehicle rental contract and the additional conditions, such as limited mileage, the time of renting a vehicle ..."
+            }
+        },
+        "customer": {
+            "title": "CUSTOMER INFORMATION",
+            "fullname": "FULL NAME",
+            "phone": "PHONE NUMBER",
+            "email": "EMAIL",
+            "address": "PICK-UP ADDRESS ",
+            "btn": "Edit"
+        },
+        "vehicle": {
+            "title": "VEHICLE BOOKING DETAILS",
+            "status": "STATUS",
+            "payment": "PAYMENT",
+            "code": "BOOKING CODE",
+            "type": "TYPE OF VEHICLE",
+            "form": "RECEIVED VEHICLE METHOD",
+            "time": "TIME",
+            "btn": "Edit",
+            "value": "Value set vehicle",
+            "equals": "or similar"
+        }
+    },
+    "select_carriage": {
+        "vehicle": {
+            "btn_detail": "Rent now",
+            "note1": "Price per day",
+            "note2": "Price does not include delivery vehicles",
+            "unit": "VND"
+        },
+        "left": {
+            "car": "Car",
+            "motor": "Motor",
+            "motorbike": "Motor scooters",
+            "handclutch": "Motorcycle",
+            "hanoi": "Ha Noi",
+            "hcm": "Ho Chi Minh",
+            "hue": "Hue",
+            "price_range": "Price range",
+            "select_seat": "Select the number of seats",
+            "select_transmission": "Select transmission type",
+            "select_brand": "Select vehicle brand"
+        },
+        "options": {
+            "range": "Sort results",
+            "increase": "From low to high",
+            "reduction": "From high to low",
+            "grid": "Grid",
+            "list": "List",
+            "map": "Map"
+        },
+        "unit": "VND",
+        "day": "/ day"
+    },
+    "preview_price": {
+        "unit": "VND",
+        "day": "/ day",
+        "info_right": {
+            "mode": "RECEIVED VEHICLE METHOD",
+            "placeholder": "Select the received vehicle method",
+            "at_home": "Get the vehicle at home",
+            "at_dealer": "Get the vehicle at dealer",
+            "time": "TIME",
+            "promotion_code": "PROMOTION CODE",
+            "placeholder_promotion": "Enter promo code ...",
+            "limit_distance": "DISTANCE'S LIMITATION",
+            "price_detail": "PRICE DETAILS",
+            "price": "Unit price per day",
+            "day": "Day",
+            "total": "TOTAL",
+            "note": "* Total amount not include delivery vehicles",
+            "btn_continue": "Book a vehicle",
+            "btn_back": "Come back"
+        },
+        "info_left": {
+            "describe": "DESCRIBE",
+            "features": "FUNCTION",
+            "procedure": "PROCEDURE",
+            "payment": "ACCEPT PAYMENT",
+            "prepay": "Prepay",
+            "postpaid": "Postpaid",
+            "same": "OR SIMILAR",
+            "note": "NOTE"
+        },
+        "info_car": {
+            "seat": "seat",
+            "gasoline": "gasoline",
+            "auto": "Automatic",
+            "air_conditioner": "Air conditioning",
+            "motorbike": "Motor",
+            "cmnd_passport": "ID / Passport",
+            "sunroof": "Sunroof",
+            "bluetooth": "Bluetooth",
+            "gprs": "GPRS positioning",
+            "usb": "USB slot",
+            "note": "(For tourists)"
+        },
+        "info_motor": {
+            "gasoline": "Gasoline",
+            "disc_brakes": "Brake discs",
+            "scooter": "Scooter",
+            "anti_lock": "Anti-lock brakes",
+            "smart_lock": "Smart lock",
+            "license": "License",
+            "cmnd_passport": "ID / Passport"
+        },
+        "note": "This price applies only to weekdays, the holiday will increase from 20-50%. Please contact our hotline at 1900636585 for more details!",
+        "lable-note": "Note"
+    },
+    "about": {
+        "company": {
+            "title": "ABOUT US",
+            "l1": "hackathon is a pioneer startup in the development of online platforms for rent and shared vary kinds of vehicles in Vietnam.",
+            "l2": "hackathon allow customers who want to hire a self-drive vehicle (cars and motorcycles) to connect the dealers as well as individuals with vehicle idle across the country through our website or mobile app . Customers can search, compare and rent a vehicle easily and quickly.",
+            "l3": "hackathon was born with the mission to bring modern technology platform that allows to rent and share a vehicle quickly, safety and economically. hackathon towards rental & sharing vehicles community and transportation in a civilized and friendly environment."
+        },
+        "why-do": {
+            "title": "Why we do?",
+            "l1": " Do not exist a good car rental/ car-sharing platform in Vietnam.",
+            "l2": " Customer hard to rent a car while provider do not have good technology to manage asset.",
+            "l3": " Customer already familiar with booking transportation service via online/mobile channel and car-sharing technology already mature enough.",
+            "l4": " A global trend to transform vehicle- ownership to vehicle-sharing."
+        },
+        "operating": {
+            "title": "Operation method",
+            "l1": "Even the most complex problem there is a solution well suited to solve. At hackathon, we are not just about renting a vehicle, we create the finished product in the existing ecosystem. We rely on technology to provide a comprehensive solution for urban travel issues by connecting passengers with the service provider for self-drive vehicle hire. Our vision at hackathon is to provide a platform where car owners can attract customers and conduct business in a convenient way. We focus our efforts on simplifying the process of renting a vehicle by creating mechanisms that may extend to conduct and facilitate transactions while proving a method of transportation economics for all."
+        }
+    },
+    "policy": {
+        "title": "INCIDENTS AND COMPLAINTS",
+        "purpose": {
+            "title": "INFORMATION PRIVACY POLICY",
+            "l0": " Your personal information will only be used for the purposes below:",
+            "l1": " - Support for placing vehicles and providing vehicle for you.",
+            "l2": " - Contact you in for hackathon's marketing purposes.",
+            "l3": " - Improve the service's quality and customer support.",
+            "l4": " - Solve the case and disputes arising in relation to the usage of hackathon's service.",
+            "l5": " - Provide information to law enforcement agencies as required."
+        },
+        "limit": {
+            "title": "Scope of information used",
+            "l0": " hackathon platform uses member's information provided to:",
+            "l1": " Send notices of activities of exchange information between members and hackathon platform.",
+            "l2": " Prevent activities that destroy the user account or prevent fake member fake.",
+            "l3": " Contact and deal with members in special case.",
+            "l4": " Do not use member's personal information unless to confirm or contact relating the vehicle and booking vehicle.",
+            "l5": " In case the request of law: Platform hackathon is responsible for providing personal information members upon request from judicial authorities include: procuracy, courts, public security organs that investigations related to member's violations of laws. Nobody else has the right to infringe on the member's personal information."
+        },
+        "time": {
+            "title": "Information's retention time",
+            "l1": "Customer's personal data will be stored until a cancel request or Customer login and cancel yourself. In others case, customers's personal information will be secured on the company's servers."
+        },
+        "service": {
+            "title": "OPERATION'S REGULATION",
+            "title1": "Accept the terms",
+            "title2": "Service's description",
+            "title3": "Responsibility of account and password provided",
+            "title4": "Responsibility for providing information",
+            "title5": "Responsible for the content posted",
+            "title6": "Limited activity",
+            "title7": "Liability's limitation",
+            "title8": "Security",
+            "title9": "Intellectual property",
+            "l1": "The following agreement is a legal agreement between you bound (can be 'Owner', or 'Driver') and hackathon community network operators group( 'We'). The agreement covers the terms of service that you have to adhere to access and use our services. Terms of service apply even if you do not have an account. Your usage of hackathon service means you accept the terms of this service. At each period, we may update the Terms of Service in accordance with its decision without direct notice to you. You are responsible for consulting the latest version by visiting the website www.hackathon.vn.",
+            "l2": "PLEASE READ THIS TERMS SERVICE BEFORE REGISTERING MEMBERSHIP. IF YOU DO NOT AGREE WITH THESE TERMS OF SERVICE, PLEASE DO NOT USE OR ACCESS OUR SERVICES",
+            "l3": "hackathon is a online community sharing self-driving vehicles (motorcycles, cars) in the market; a connection between who have a vehicle for rent and who want to rent a self-driving car. When you have an account at hackathon, you can easily propose or rent a self-driving vehicle (motorcycles, cars) through the gadgets that we offer. These gadgets are referred to collectively as the 'Services'. You also understand and agree that the Service include some contact information of the Managing Board hackathon through means such as email, SMS, website .. and that this communication is considered an integral part of the Services and You will not be able to refuse to receive this information unless you terminate your account.",
+            "l4": "",
+            "l5": "You will receive a password and account designation upon completing the Service's registration history. You are responsible for the security password and account and are fully responsible for all activities that occur under your password or use your account.",
+            "l51": "(a) You agree to immediately notify us of any cases of unauthorized use of your password or your account or any other breach cases security",
+            "l52": "(b) Ensure that you exit from your account after each use. We can not and will not be liable for any loss or damage incurred by you not comply with this",
+            "l6": "As people use the service, you must commit to: ",
+            "sv161": "(a) You have the legal status and behavior as when using the service",
+            "sv162": "(b) Providing the latest information, complete, honest and accurate about yourself in the Personal Profile",
+            "sv163": "(c) Maintain and promptly update the Personal Profile to ensure that this data is complete, truthful and accurate.",
+            "sv164": " If you provide any information that is not dishonest or inaccurate, or if hackathon have reasonable grounds to suspect that such information untruthful or inaccurate, hackathon the right to suspend or close your account stopped; refuse partial or full use of services at the present time or in the future",
+            "l7": "You understand that you are entirely responsible before the law for the content you create, including but not limited to data, text, software, sound, photographs, video, email. We have no obligation to monitor the materials posted and, therefore, does not guarantee the legality, accuracy, integrity or quality of such Content. In areas allowed to upload content, you can share information allowed under the format we default and you are solely responsible for the content, information, photographs, and any your shared with other individuals or groups who use users. However, in any case, we still reserve the right to process the information published in accordance with the habits and customs, rules of ethics and the rules to ensure national security, and we reserves the right to allow or not allow your articles appear or exist in the area are allowed to share information.",
+            "l8": "Unlimited remedial measures differently, we may terminate your participation, your information removed, warning the community about your actions and refuse to provide services if: ",
+            "sv181": "(a) You have used the wrong purpose of the service, with acts of unlawful or morality",
+            "sv182": "(b) We have reasonable grounds to suspect that the information you provide dishonest or inaccurate",
+            "sv183": "(c) We believe that your actions as fraudulent, deceptive and can cause loss or financial liabilities or our community",
+            "sv184": "(d) Use of services for commercial purposes without the prior written consent of us agree",
+            "sv185": "(e) Violations of our rights or third parties, including but not limited to intellectual property rights, copyright, patent, trademark, trade secret or privacy rights",
+            "sv186": "(f) Spreading malicious application or attack seized control system, data or personal information",
+            "l9": "You understand and agree that: ",
+            "sv91": "(a) Your use of transport services of other participants in traffic is your decision. You bear all risks incurred. We explicitly reject all warranties under any kind of quality of service or personal prestige of the parties.",
+            "sv92": "(b)  We have no obligation to handle complaints related to the quality of transport services by the parties to provide and deny all the constraints related to liability both ethical legal contract when have unfortunate consequences in the process of the members used means of transport.",
+            "sv93": "(c) We are not responsible for transport services of third parties to use our information to provide services to you.",
+            "sv94": "(d) We do not guarantee that:",
+            "sv941": "(i) The services will be uninterrupted, timely, secure or error",
+            "sv942": "(ii) Services can be accessed at any time or from time to time through the channel of your choice or use",
+            "sv943": "(iii) Information, content, or advertisements contained in the service will be accurate or reliable",
+            "sv944": "(iv) The loss of data and other contents are guaranteed maximum",
+            "sv95": "(e) We reserve the right to modify, temporarily or permanently stop the service with or without notice. We have no obligation to any correction, suspended or not to continue providing services.",
+            "l10": "We do not sell or rent your personal information to third parties without your permission, and we only use your information as described in the Terms of privacy. We see the protection of the privacy of users as an important principle of leading the community. You can review the privacy policy at our current privacy policy.",
+            "l11": "All intellectual property rights exist in the Service hackathon belong hackathon or legal licensed for use hackathon. Accordingly, all of the legal rights are guaranteed. Unless the consent of hackathon, you may not upload, post, publish, modify, reproduce, transmit or distribute in any form any part of the Service hackathon provided. We have full rights, including but not limited to copyright, trademark, and other proprietary rights that we have in the Service hackathon.Tat both elements to the Service that we provide are in range of our property whether registered or unregistered. The use rights and ownership of us should be our prior permission in writing. In addition to written authorization, we are not licensed in any other form whether it is the form of announced or implied, or through the services you use. And therefore, you have no right to use our services in commercial purposes without permission in writing from us before. You agree to us freely use, disclose, adopt and modify any ideas, concepts, methods, recommendations, suggestions, comments or form other notice that you give us ( 'Feedback') relating to hackathon and / or services hackathon completely free. You waive and agree to waive any rights and claims to any bonuses, fees, royalties, fees and / or type of other payments related to our use, disclosure, application , and / or modify any or all of your Feedback."
+        },
+        "incident": {
+            "title": "Incidents and complaints",
+            "l0": "Mechanism for resolving complaints relating to the personal information of customers:",
+            "l1": "- hackathon  will be the unit intermediary to receive complaints from customers. When detecting a violation, the hotel car rental, car owners may submit a complaint about the hackathon. hackathon will review and assist with standing out work directly with state agencies competent support provided information necessary to serve the complaint.",
+            "l2": "- In the case of information systems under attack raises the risk of loss of consumer information, hackathon will notify authorities within 24 (twenty four) hours after discovering the problem.",
+            "l3": "Companies and vehicle owners are responsible for receiving complaints and customer support related to the transaction are connected through the Exchange. The complaint related to the provision, use the car rental service on the Exchange by the company responsible for the independent settlement on the basis of the provisions of law, the Terms and Conditions for using the service, the notices and regulations published with the member (Customer and vehicle owner). When disputes arise, the Company uphold negotiated solution, reconciliation between the parties in order to maintain confidence in the quality of Member of the Exchange service. Customers can follow these steps:",
+            "l4": "Step 1: ",
+            "l41": "Customer complaints about service through telephone number 1900 636 585 or 0903 229 906 or send a mail to the Customer Care department at contact@hackathon.vn. Time for the Company to receive complaints is 3 days of using the service or from the date of the incident.",
+            "l5": "Step 2: ",
+            "l50": "Within (3) working days after receiving the information of the customer complaint, the Customer Care department confirmed the information complaints and classify information and notify customers:",
+            "l51": "2a. Noting the requests and complaints relating to the Company and within the complaint.",
+            "l52": "2b. Refusal of requests, complaints are not related to the company and the expiration of the appeal.",
+            "l6": "Step 3: Solve the problem",
+            "l60": "Parts Customer Care will conduct the verification, verification and analysis of the nature and extent of the contents of the complaint, the scope of claims and handling responsibility to coordinate with the vehicle and Party Service Provider th 3 outlines specific measures to assist customers solve their dispute.",
+            "l61": "3a. Transfer issues related directly to the Company for the relevant department and reference checks.",
+            "l62": "3b. Transfer issues related to all vehicles settlement.",
+            "abc": "Within three (3) working days after receiving notice of the complaint, all vehicles shall coordinate with hackathon to solve and handle complaints. Car owners will notify the Customer remedies or authorization notice to the Company.",
+            "l7": "Step 4: Close complaints",
+            "l71": "4a. Customer agrees to feedback Customer Care Unit -> End complaint. Client does not agree -> Back to step 3",
+            "l72": "4b. Subscribe to resolve complaints all vehicles -> End of complaints when customers and vehicle owners have agreed to complete.",
+            "l8": "Upon receiving notice of remedial measures from all vehicles, but customers do not agree, the company will take the lead in negotiations, mediation between customers and vehicle owners to go to the settlement results consistent with both parties . In case the Customer and vehicle owners do not go to the general agreement or the Customer does not agree with the measures to settle the last of all vehicles and / or beyond the capability and competence of the company, the customer or the car possible thanks to the State agency authorized to intervene and settle according to law in order to ensure the legitimate interests of the parties.",
+            "l9": "Companies respect and strictly implement the provisions of the Law on the Protection of the rights of users. The company recommends customers and vehicle owners provide accurate, truthful and detailed personal information and posting content related to the service. We also suggested that car owners need to seriously adhere to the provisions of law, as well as appropriate behavior towards clients. All acts of fraud, fraud in business, harm to others are condemned and must bear full responsibility before the law. The parties include customers and all vehicles will have a positive responsibility in resolving complaints. Vehicle owners should be responsible for handling the initiative and provide identification papers written information relating to the matter are complaints or disputes with customers. The company only serves to support and coordinate the negotiation, mediation and settlement of complaints and keep customers and vehicle owners. The company is also responsible for providing information related to the Customer and vehicle owner if the car owner or the Customer or the law enforcement agencies have the competence required.",
+            "l10": "After Customer and vehicle owner has settled the dispute, it should be responsible for the Company reports to update the situation. In case of transactions arising conflicts that errors belong to all vehicles: The Company will apply measures to handle violations respectively, including but not limited to: a warning, key account or transferred to the law enforcement agencies competent according to the degree of violation. The company will terminate and remove the whole story about the products and services of all vehicles on the trading floor which simultaneously require vehicle owners to reimburse the customer on the basis of satisfactory agreements with customers."
+        }
+    },
+    "promotion": {
+        "title": "PROMOTION",
+        "btn_detail": "See details",
+        "copy": "Copy the code"
+    },
+    "guide": {
+        "title": "SUPPORT",
+        "title1": "Vehicle rental guide",
+        "process1": "Find vehicle",
+        "content1": "Visit website hackathon , choose the time & location you need to rent a vehicle.",
+        "process2": "Book a vehicle",
+        "content2": "Based on price comparison system, choose your favorite car & send us request.",
+        "process3": "Pickup the vehicle",
+        "content3": "Complete rental procedures, pickup the vehicle & start the journey. You can pick up the vehicle at home or at our dealers.",
+        "process4": "Drop off",
+        "content4": "Drop off after the journey. Grading services to improve quality.",
+        "title2": "Frequently asked questions"
+    },
+    "questions": {
+        "title": "FREQUENTLY ASKED QUESTIONS",
+        "frequently": {
+            "title": "General questions",
+            "l1": "Become a hackathon's partner.",
+            "l2": "hackathon is a fast and reliable online booking system of self-driving vehicles. hackathon offers the opportunity to reach millions of customers across the country. This is a great opportunity for self-driving car rentals companies for cooperation and development."
+        },
+        "why-do": {
+            "title": "Why should you become our partner?",
+            "step1": "How to participate in community hackathon",
+            "step2": "Conditions of participation",
+            "l1": "- Ability to reach millions customers through online channels of hackathon and regularly receive vehicle rental orders, increase revenue and optimize the vehicle's retention time.",
+            "l2": "- Keep abreast of consumer trends is searching and booking online or via mobile app",
+            "l3": "- hackathon support the develop the online booking channels without losing the investment costs, maintenance costs and system without dedicated IT personnel (for the car rental company)",
+            "l4": "- Allows book and pay in advance, to ensure revenue and initiative in business.",
+            "l5": "- System passenger feedback on vehicle quality and service as well as customer care automation allows to improve quality of service.",
+            "l6": "- Registration for participation in filling the Registration Form for partnership hackathon",
+            "l7": "- hackathon test service provider capability and vehicle quality",
+            "l8": "- Contracted transport cooperation and revenue sharing",
+            "l9": "- Companies / individuals with self-drive car rental",
+            "l11": "- hackathon provide contract model and guidelines on principles of conduct between owners and renters in order to all car transactions take place smoothly. Renters are responsible for their decisions and car rental information you need to consider before deal with owners. hackathon will help provide information and support to the parties to work with the police when it's necessary.",
+            "l12": "- When you hire vehicles are on the road and damaged, you must quickly call the car owner to notice the situation. Vehicle owners who best understand the condition of the car, it will give you the most practical advice. In addition, the two sides also need to clarify the cause of the damage was due to the following parties specify who will pay for the fix that. You should also take the phone number for emergency rescue in case something bad happens.",
+            "l13": "- For car owners in case their request began temple failures not caused by them, you should take pictures, shoot the vehicle's condition as soon as you get the car detailed. If you see signs of damage or are about to damage it must immediately notify the owner and recorded in vehicle leasing contract between the two parties. hackathon provided model contracts for vehicle owners and you should keep it in the contract. In case the car caught the damaged house without errors caused by you, then you should bring proof of receipt and a contract vehicle for vehicle owners to view. You are absolutely right to refuse compensation for the errors that you did not cause.",
+            "l14": "- hackathon providing model contracts and guidelines on principles of conduct between tenants and all car transactions take place smoothly. Vehicle owners are responsible for deciding your rental car and you need to consider information about the tenants before the transaction. hackathon will help provide information and support to the parties to work with the police when necessary.",
+            "l15": "To ensure the safety of car rental, car owners should:",
+            "l16": "- In case of long term lease, you should periodically ask renters about car situation,",
+            "l17": "- Registration of voluntary insurance in insurance companies",
+            "l18": "- Install GPS to check the position of the vehicle regularly",
+            "l19": "- If it detects the car moving to a suspicious location (borders, go beyond the expected ...) shall immediately notify hackathon.",
+            "l20": "- If the detected GPS disconnected,notify immediately hackathon and report local police.",
+            "l21": "- In the case of vehicles damaged during use, please guide the renter repair and pay based on vehicle rental agreement signed between the renter and owner."
+        }
+    },
+    "announce": {
+        "error_api": "An error occurred!",
+        "success_register": "Registered successfully!",
+        "error_network": "An error occurred, please try again later!",
+        "success_change_info": "Change information success!",
+        "error_login": "Your login session has expired!",
+        "success_change_pass": "Change password succeeded",
+        "error_phone1": "Please enter the phone number",
+        "error_phone2": "Phone number incorrect",
+        "error_email1": "Please enter your email",
+        "error_email2": "Email invalidate",
+        "error_name": "Please enter a name",
+        "error_address": "Please enter your address",
+        "error_promotion": "Code do not exist!",
+        "mailchip": {
+            "sending": "Sending...",
+            "error": "Your email has been registered earlier!",
+            "success": "Thank you for your interest in us!"
+        }
+    },
+    "email": {
+        "register_partner": {
+            "subject": "Registration information partner",
+            "note1": "Information register your partner have been recorded",
+            "note2": "We will call you as soon as if possible!",
+            "content": {
+                "name": "Unit name:",
+                "phone": "Phone number:",
+                "email": "Email:",
+                "address": "Address:",
+                "title": "Title:",
+                "content": "Content: "
+            },
+            "footer": {
+                "contact": "Tel: 1900 636585 - 090 450 9596",
+                "email": "Email: contact@hackathon.vn",
+                "address": "5th Floor, 166 Pho Hue, Ngo Thi Nham, Hai Ba Trung District, Hanoi."
+            }
+        },
+        "special_requirement": {
+            "subject": "Booking information",
+            "content": {
+                "title": "Special requirements",
+                "customer": "Customer:",
+                "phone": "Phone number:",
+                "email": "Email:",
+                "address": "Address:",
+                "requirement": "Request:"
+            },
+            "note": {
+                "title": "Note:",
+                "p1": "Free trip information changes",
+                "p2": "hackathon.vn commitment to service's quality, vehicle's quality for trips booked in hackathon.vn",
+                "link1": "Frequently asked questions",
+                "link2": "Privacy policy"
+            }
+        },
+        "booking": {
+            "subject": "Booking information",
+            "note": "(Please provide a ticket code information when contacting us)",
+            "content": {
+                "book_code": "Ticket code:",
+                "create_date": "Date created:",
+                "customer": "Customer:",
+                "phone": "Phone number:",
+                "email": "Email:",
+                "number_day": "Number of rental days",
+                "address": "Pick-up address:",
+                "rental_time": "Rental time",
+                "return_time": "Return time",
+                "rental_date": "Rental day:",
+                "return_date": "Drop-off day:",
+                "vhc_type": "Type of vehicle:",
+                "vhc_name": "Vehicle name:",
+                "payment": "Payment methods:",
+                "price_total": "Total price:",
+                "partner_name": "Partner:"
+            }
+        }
+    },
+    "partner_form": {
+        "title": "Register as a Partner",
+        "form": {
+            "name_label": "Unit name *",
+            "name_placeholder": "Enter the name of units ...",
+            "phone_label": "Phone number *",
+            "phone_placeholder": "Enter your phone number ...",
+            "email_label": "Email *",
+            "email_placeholder": "Enter your email address ...",
+            "address_label": "Address",
+            "address_placeholder": "Enter the address ...",
+            "title_label": "Title",
+            "title_placeholder": "Enter a title ...",
+            "content_label": "Content",
+            "content_placeholder": "Enter content ..."
+        },
+        "btn_register": "Registration",
+        "btn_back": "Go back to the homepage"
+    },
+    "partner_page": {
+        "title": "BECOME PARTNERS",
+        "description": {
+            "p1": "hackathon Joint Stock Company send greeting to our Partners,",
+            "p2": "hackathon is a platform connecting the car rental company as well as individuals with idle car to customers on online platforms and mobile. Customers can easily search, compare prices, rent a vehicle, pay smoothly and save cost."
+        },
+        "benefit": {
+            "title": "Benefits of partnering with hackathon",
+            "p1": "Access to a large amount of customer through hackathon platform, - an effective sales channel",
+            "p2": "No advertising and personnel cost to maintain a website, fanpage ...",
+            "p3": "No cost to register and maintain participation at hackathon",
+            "p4": "Only charge upon successful transaction (commission)",
+            "p5": "An effective vehicle & customers management tool.",
+            "p6": "Supported to run your own promotions program with coupon codes.",
+            "p7": "Initiative in propose cars, prices and procedures in the system",
+            "p8": "Grasp the information, transaction history of the customer and have full power in deciding whether or not rentable.",
+            "p9": "Introduced in the communications & marketing campaign at hackathon"
+        },
+        "offer": {
+            "title": "Propose the cooperation",
+            "p1": "hackathon has strength in collective customers in tourism and business trips from Hanoi and Ho Chi Minh City and also the others tourist destinations in the country (Nha Trang, Phu Quoc, Da Nang, Hoi An, ...) as well as corporate customers foreign buyers need to reserve service.",
+            "p2": "hackathon will act as an agent providing customers from online channels for car rental company to supplement existing sales channels.",
+            "p3": "The lessors will pay the brokerage fees for hackathon based on successful transactions (commissions)."
+        },
+        "procedure": {
+            "title": "Process collaboration",
+            "p1": "Partners provide the information about vehicles, prices and procedures",
+            "p2": "The two sides sign cooperation agreement",
+            "p3": "Account for partners to receive bookings",
+            "p4": "When guests book a car, information will be pushed into Partner's Email / account",
+            "p8": "At the end of each month, two sides  will check and pay based on successful transactions",
+            "p7": "After each trip, customers will provide an assessment of service experience",
+            "p6": "Partners will work with customers for the contracts, procedures, pick up/drop off time ̃ place.",
+            "p5": "Partner guaranteed car to serve customers"
+        }
+    },
+    "change_info": {
+        "title": "Change personal information",
+        "name_label": "Full name",
+        "name_placeholder": "Enter a name ...",
+        "phone_label": "Phone number",
+        "phone_placeholder": "Enter your phone number...",
+        "email_label": "Email",
+        "email_placeholder": "Enter the email ...",
+        "btn_save": "Save",
+        "btn_back": "Come back"
+    },
+    "upload_image": {
+        "btn_upload": "Upload photos",
+        "preview_text": "Please select an image to preview"
+    },
+    "special_requirement": {
+        "title": "Vehicle rental special request",
+        "form": {
+            "title": "Customer's requirements",
+            "require_label": "Request",
+            "require_placeholder": "Enter the required ...",
+            "btn_send": "Send require"
+        }
+    },
+    "info_unit_price": {
+        "title": "PRICE AND PROCEDURES",
+        "distance": "Extra distance:",
+        "unit": "Km",
+        "price": "Extra costs:",
+        "unit_price": "VND",
+        "rental_date_label": "Pick up time",
+        "rental_date_placeholder": "Pick up day",
+        "return_date_label": "Drop off time",
+        "return_date_placeholder": "Drop off day",
+        "promotion": "Discount code",
+        "distance_limit": "Maximum",
+        "unit_distance": "km/day",
+        "extra": "Additional",
+        "unit_extra": "VND/km",
+        "day": "day",
+        "base_price": "Base cost",
+        "extra_fee": "Extra fees",
+        "deli_price": "Vehicle delivery price"
+    },
+    "loading": "Loading ...",
+    "loading_booking": "Generating your ticket code, please wait ...",
+    "result_list": "Currently no vehicle you find ...",
+    "select_all": "All",
+    "question": {
+        "q0": "What do I need to prepare to rent a motorcycle?",
+        "a0": "People's identity card (original); Driving license (original and copy); Passport (passport) if a foreigner; Deposit of VND 3,000,000 or more depending on type of vehicle.",
+        "q1": "What do I need to prepare to rent a self-driving car?",
+        "a1": "Household registration book or KT3 (long-term temporary book), the people's identity card (original or copy), motorcycle and motorcycle registration certificate. Deposit of motorbike or cash worth VND 20,000,000 or more depending on the type of vehicle.",
+        "q2": "Can I rent a car for someone else?",
+        "a2": "You can sign contracts to rent for relatives or friends. Depending on the vehicle rental partner who will ask you to add 1 to the relevant documents in the name of the vehicle rental contract.",
+        "q3": "What do I need to pay attention to when I receive a vehicle?",
+        "a3": "Check carefully whether the vehicle's papers are still valid or not. Bring full documents, especially Driver's License, and Identity Card. Read carefully the vehicle handover report as if there are any scratches, the actual petrol line when handing over",
+        "q4": "What should I do when I have a problem on the road?",
+        "a4": "You should call hackathon's Hotline (1900 636 585 - 0903 229 906) and contact the garage directly to inform and agree on the repair and payment costs based on the agreement of both parties.",
+        "q5": "What do the vehicle rental price include? Do the extra fees need to note?",
+        "a5": "Vehicle rental rates will be calculated by day and by hour. If you pay the vehicle later than the agreed time, it will be charged based on the number of hours past due or in excess of the kilometer. Vehicle rental prices for holidays or weekends are often higher than on weekdays.",
+        "q6": "How to book a vehicle on hackathon?",
+        "a6": "You can book a vehicle via email, phone or sign up on hackathon.vn website.",
+        "q7": "hackathon leases any vehicles?",
+        "a7": "We have many lines of both motorcycles and cars to match the needs of customers both short and long-term lease cars as 4-5 seats, 7 seats, 9 seats; Automatic transmission, semi-automation transmission, manual transmission.",
+        "q8": "How payment methods can I pay with?",
+        "a8": "Transfer payment, transfer fees will be paid by the customer. Cashing. Credit card payment",
+        "q9": "Do I have to pay a penalty if I cancel my booking?",
+        "a9": "You absolutely do not incur any penalty fees for canceling a deposit before the time of the performance of the vehicle rental contract (this don't apply vehicle rental on holidays, Tet, ...).",
+        "q10": "Is the vehicle new? Is the vehicle quality good?",
+        "a10": "hackathon provides new vehicle models and is registered and maintenance periodically."
+    }
+}

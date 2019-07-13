@@ -1,0 +1,95 @@
+.rc-steps-item {
+    width: 25%;
+}
+.rc-steps-item-title {
+    width: 85%;
+}
+.rc-steps-item-finish .rc-steps-item-icon {
+    border-color: #00363b !important;
+    border-width: 2px !important;
+    background-color: #00363b !important;
+}
+.rc-steps-item-finish .rc-steps-item-tail::after {
+    background-color: #00363b !important;
+    height: 2px;
+}
+.rc-steps-item-process .rc-steps-item-icon {
+    background: #00363b !important;
+    border: #00363b
+}
+.rc-steps-item-wait .rc-steps-item-tail {
+    background-color: #dcdcdc !important;
+    height: 2px;
+}
+.rc-steps-item-wait .rc-steps-item-icon{
+    background-color: #dcdcdc !important;
+}
+
+.rc-steps-label-vertical .rc-steps-item-title {
+    height: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: center;
+    color: #00363b;
+}
+.rc-steps-item-icon {
+    background: #00363b !important;
+    border: #00363b;
+    z-index: 10;
+    position: absolute;
+}
+.rc-steps-item-finish .rc-steps-item-tail::after, .rc-steps-item-wait .rc-steps-item-tail:after {
+    background-color: #00363b !important;
+    height: 6px;
+    margin-top: -3px;
+    margin-left: -24%;
+    width: 151%;
+}
+
+.rc-steps-item-wait .rc-steps-item-tail:after {
+    background-color: #dcdcdc !important;
+    height: 6px;
+    margin-top: -3px;
+    margin-left: -24%;
+    width: 151%;
+}
+.rc-steps-item-process .rc-steps-item-tail::after{
+    height: 6px;
+    margin-top: -3px;
+    margin-left: -24%;
+    width: 151%;
+    background-color: #dcdcdd !important;
+}
+.rc-steps-item-content{
+    padding-top: 30px;
+}
+.rc-steps-item-wait .rc-steps-item-icon > .rc-steps-icon{
+    color: #fff !important;
+}
+.rc-steps-item-wait .rc-steps-item-title{
+    width: 100%;
+    height: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+    color: var(--black);
+}
+.done-step  .rc-steps-item-title:before {
+    font-family: FontAwesome;
+    display: inline-block;
+    padding-right: 6px;
+    vertical-align: middle;
+    content: "\f00c";
+    font-size: 13px;
+}

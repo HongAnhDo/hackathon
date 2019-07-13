@@ -1,0 +1,21 @@
+
+.notification-container {
+	bottom: 0px;
+    left: 10px;
+    position: fixed;
+    width: 310px;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    z-index: 1000;
+	display: block;
+	/* background: #ffff */
+} 
+
+.item.active {
+    display: block;
+}
+
+.item {
+    display: none;
+}

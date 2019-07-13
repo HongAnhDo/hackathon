@@ -1,0 +1,225 @@
+.div-guest{
+    text-align: center;
+    width: 181px;
+    height: 44px;
+    background-color: #00363b;
+    margin: 0 auto;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 44px;
+    letter-spacing: normal;
+    color: #ffffff;
+    margin-top: 30px;
+}
+.body-guide{
+    width: 100%;
+    text-align: center;
+}
+.question{
+    padding-top:77px;
+    margin-top: 77px;
+    font-family: "Montserrat", sans-serif
+}
+.rental-process{
+    
+}
+.img-process{
+    width: 25%;
+    height: auto;
+    object-fit: contain;
+    margin-top: 30px;
+}
+.line-process{
+    width: 76%;
+    height: 4px;
+    margin-left: 12%;
+    margin-right: 12%;
+    background-color: #00363b;
+    margin-top: 35px;
+}
+.dot-line .dot {
+    height: 12px;
+    width: 12px;
+    background-color: #00363b;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: -8px;
+    z-index: 500;
+    position: absolute;
+
+  }
+
+.text-process{
+    width: 25%;
+    float: left;
+    margin-top: 20px;
+    display: grid;
+
+}
+.title-process{
+    height: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+    color: var(--black);
+}
+.des-process{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+    color: var(--black);
+    text-align: center;
+    margin-top: 10px;
+    padding: 0 5px 0 5px;
+}
+.dot1{
+    margin-left: 10%;
+}
+.dot2{
+    margin-left: 33%;
+}
+.dot3{
+    margin-left: 56%;
+}
+.dot4{
+    margin-left: 78.2%;
+    width: 32px !important;
+    height: auto !important;
+    margin-top: -18px !important;
+}
+.dot-line{
+    float: left;
+    display: table;
+}
+
+.item-question{
+    width: auto;
+    height: 90px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    border: solid 2px #dcdcdc;
+    font-family: 'Montserrat' sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+    vertical-align: middle;
+}
+.item-answer{
+    width: auto;
+    min-height: 90px;
+    height: auto;
+    padding: 10px 15px 10px 15px;
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    border: solid  #dcdcdc;
+    border-width: 0 2px 2px 2px;
+    font-family: 'Montserrat' sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #000;
+    vertical-align: middle;
+}
+.item-question-display{
+    width: auto;
+    height: 90px;
+    border-radius: 8px 8px 0px 0px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
+    background-color: #00363b;
+    border: solid #dcdcdc;
+    border-width: 2px 2px 0 2px; 
+    font-family: 'Montserrat' sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+    vertical-align: middle;
+    text-align: justify
+}
+.text-question{
+    float: left;
+    width: 100%;
+    vertical-align: middle;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 0 0 0 15px
+}
+.icon-right-question{
+    width: 32px;
+    height:  auto;
+    float: right;
+    margin: 0 auto;
+    vertical-align: middle;
+    margin: 7% 10px 0 10px ;
+
+}
+
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  margin-top: 32px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .question {
+        padding-top: 100px;
+        margin-top: 100px;
+       
+    }
+    .wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .question {
+        padding-top: 170px;
+        margin-top: 170px;
+        font-size: 26px;
+    }
+    .wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.div-text-question{
+    height: 100%;
+    width: 80%;
+    float: left;
+    vertical-align: middle;
+    margin: auto;
+    display: flex;
+}

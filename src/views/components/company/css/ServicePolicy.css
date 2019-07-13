@@ -1,0 +1,61 @@
+.body-service {
+    margin-top: 20px;
+    text-align: justify;
+    background: #fff;
+    padding: 3% 5% 3% 5%;
+    margin-left: 8%;
+    margin-bottom: 40px;
+}
+
+.text-why {
+    font-family: "Montserrat";  
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.20;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #000 !important;
+    /* margin-bottom: 10px; */
+    /* padding-left: 40px;
+    padding-right: 40px; */
+}
+.text-why ol li {
+    padding-left: 20px;
+}
+
+.text-why-bold {
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.20;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #333333;
+    margin-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 40px;
+    font-weight: 600;
+}
+
+.title-child-service {
+    font-size: 30px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #00363b;
+    font-family: "Montserrat";
+    padding-bottom: 15px;
+}
+@media screen and (max-width: 992px) {
+    .body-service {
+        margin-left: 0%;
+        margin-bottom: 0px;
+    }
+}

@@ -1,0 +1,423 @@
+.title-top {
+    width: 100%;
+    height: 19px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: center;
+    margin-top: 24px;
+    color: #00363b;
+}
+.image-user {
+    width: 170px;
+    height: 170px;
+    border-radius: 8px;
+}
+.btn-edit, .btn-edit:hover{
+    width: 136px;
+    height: 44px;
+    left: 25%;
+    border-radius: 4px;
+    border: solid 2px #00363b;
+    color: #00363b;
+    display: -webkit-box;
+}
+
+.ic-edit {
+    background-size: 14px;
+    outline: none;
+    border: none;
+    background-repeat: no-repeat;
+    width: 16px;
+    margin-right: 5px;
+    height: 16px;
+}
+
+.display-none1{
+    display: initial
+}
+.display-none2{
+    display: none
+}
+
+.text-btn{
+    font-size: 16px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    width: 100%;
+}
+
+.text-edit{
+    height: 19px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: center;
+    /* color: #00363b; */
+}
+.title-info {
+    width: auto;
+    height: auto;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333333;
+}
+.title-normal{
+    font-size: 18px;
+    font-weight: 700;
+    color: #00363b;
+    width: 100%;
+    text-align: center;
+    margin: 16px 0 16px 0;
+    font-family: "Montserrat", sans-serif
+}
+.title-change-info{
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    color: #333333;
+    font-family: "Montserrat"
+}
+.frames-image, .frames-image:hover{
+    width: 232px;
+    height: 147px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    border: solid 2px #00363b;
+    color: #00363b;
+    font-size: 16px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 147px;
+    font-weight: 500;
+    margin-right: 20px;
+}
+.ic{
+    width: 18px;
+    height: 22px;
+    margin: 8px;
+    padding-bottom: 4px;
+}
+
+label {
+    cursor: pointer;
+    /* Style as you please, it will become the visible UI component. */
+ }
+ 
+ #upload-license1, #upload-license2,  #upload-photo1,  #upload-photo2 {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+ }
+ .frames-img {
+    width: 232px;
+    height: 143px;
+    border-radius: 8px;
+    vertical-align: initial;
+ }
+ .frames-div :hover {
+    opacity: 0.5;
+ } 
+ .div-hover{
+    position: absolute;
+    top: 170px;
+    width: 170px;
+    height: 72px;
+    opacity: 0.5;
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+    color: #fff;
+    border-radius: 0 0 8px 8px;
+ }
+
+ .div-hover-license1, .div-hover-license2 {
+    position: absolute;
+    top: 313px;
+    width: 232px;
+    height: 147px;
+    opacity: 1;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.div-hover-cmnd1, .div-hover-cmnd2 {
+    position: absolute;
+    top: 528px;
+    width: 232px;
+    height: 147px;
+    opacity: 1;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.hover-license-label {
+    width: 232px;
+    height: 147px;
+    border-radius: 8px;
+    background-color: transparent;
+    color: #00363b;
+    font-size: 16px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: normal;
+    font-weight: 500;
+    padding-top: 20%;
+}
+
+.div-hover-license button {
+    top: 60px;
+    color: #fff;
+    border: 1px solid #f5f5f5;
+    margin-left: 15px;
+}
+ .btn-image{
+    color: #ffffff
+ }
+ .profile-detail {
+    /* margin-top: 28px;
+    display: inherit; */
+    width: 100%
+ }
+ .change-info {
+    position: relative;
+    margin-left: 24px;
+ }
+
+.profile-detail-div {
+    margin-top: 28px;
+    display: -webkit-box;
+    width: 100%;
+}
+
+.upload-license {
+    margin-top: 14px;
+    display: -webkit-box;
+    width: 100%;
+}
+.act-upload-license {
+    float: right;
+    margin-top: 10px;
+}
+.act-upload-license button {
+    width: 140px;
+    margin-left: 15px;
+}
+.act-upload-license .btn-cancel {
+    border-radius: 4px;
+    border: 2px solid #00363b;
+    padding: 14px 1.2rem;
+}
+
+.modal-footer{
+    display: -webkit-box;
+}
+.modal-header{
+    display: -webkit-box;
+}
+
+#upload-shk {
+    display: none;
+}
+.div-shk {
+    margin-right: 10px;
+}
+.div-loading, .div-loading1, .div-loading2 {
+    position: absolute;
+    top: 328px;
+}
+.div-loading-cmnd1, .div-loading-cmnd2 {
+    position: absolute;
+    top: 543px;
+}
+.react-loading-custom {
+    margin-left: 6rem !important;
+}
+
+.btn-upload {
+    opacity: 1;
+    width: 100%;
+    text-align: center;
+}
+ .ic-camera {
+    width: 40px;
+    
+ }
+ .avatar-upload ::-webkit-file-upload-button {
+    visibility: hidden;
+  }
+  .avatar-upload {
+    content: "Cập nhật";
+    font-size: 14px;
+    margin-left: 59px;
+    cursor: pointer;
+  }
+.upload-image-header{
+    display: inherit;
+    background-color: #fff;
+}
+.upload-image-header .title-normal{
+    text-align: left;
+    margin: 0;
+}
+.input-file {
+    width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+.input-file + label {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    display: inline-block;
+}
+
+.input-file + label {
+    cursor: pointer; 
+    max-width: 80%;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0.625rem 1.25rem;
+}
+.input-file:focus + label {
+	outline: 1px dotted #000;
+	outline: -webkit-focus-ring-color auto 5px;
+}
+.box {
+    background-color: #fff;
+    padding: 4.25rem 0;
+    text-align: center;
+}
+.input-file + label svg {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    fill: currentColor;
+    margin-top: -0.25em;
+    margin-right: 0.25em;
+}
+.upload-body {
+    padding: 15px !important;
+    text-align: center;
+}
+.react-loading {
+    text-align: center;
+    margin-left: 9rem;
+}
+.btn-upload-img {
+    cursor: pointer;
+    max-width: 80%;
+    font-size: 1.25rem;
+    font-weight: 700;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0.625rem 1.25rem;
+    width: 190px;
+}
+.div-btn-upload-img {
+    text-align: center;
+    padding: 1rem 0;
+}
+.div-loading-shk {
+    width: min-content;
+    vertical-align: middle;
+}
+.react-loading-shk{
+    margin-left: 1rem !important;
+}
+.upload-shk {
+    margin-top: 14px;
+}
+@media only screen and (max-width: 375px){
+    .form-right{
+        margin-left: 0px;
+    }
+    .profile-detail {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    p.title-top {
+        margin-bottom: 20px;
+    }
+    /* .profile-detail div {
+        margin: 24px;
+    } */
+    .change-info {
+        margin-left: 0px;
+    }
+    .btn-change-info {
+        padding-left: 35px !important;
+    }
+    .profile-detail-div {
+        display: contents;
+        margin: 0px !important;
+        /* margin: 24px; */
+    }
+    .upload-license {
+        display: inherit;
+        padding-left: 24px;
+    }
+    .container-upload {
+        margin: 24px;
+    }
+    .frames-image {
+        margin-bottom: 24px;
+    }
+    .div-hover {
+        top: 160px;
+        margin-left: 80px;
+    }
+    .div-hover-license1 {
+        top: 520px;
+    }
+    .div-loading1 {
+        top: 530px;
+    }
+    .div-hover-license2{
+        top: 690px;
+    }
+    .div-loading2 {
+        top: 700px;
+    }
+    .div-hover-cmnd1 {
+        top: 930px;
+    } 
+    .div-hover-cmnd2 {
+        top: 1100px;
+    }
+    .div-loading-cmnd1 {
+        top: 945px;
+    } 
+    .div-loading-cmnd2 {
+        top: 1115px;
+    }
+}

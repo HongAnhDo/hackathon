@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="272px" height="150px" viewBox="0 0 272 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 8</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M3,0 L268.291866,0 C269.94872,-3.04359188e-16 271.291866,1.34314575 271.291866,3 L271.291866,147 C271.291866,148.656854 269.94872,150 268.291866,150 L3,150 C1.34314575,150 2.02906125e-16,148.656854 0,147 L0,3 C-2.02906125e-16,1.34314575 1.34314575,3.04359188e-16 3,0 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="271.291866" height="150" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Thông-tin-tài-khoản" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Some-status-Copy-5" transform="translate(-700.000000, -299.000000)">
+            <g id="Group-8" transform="translate(700.000000, 299.000000)">
+                <use id="Rectangle-3-Copy" stroke="#979797" mask="url(#mask-2)" stroke-width="2" fill="#FFFFFF" stroke-dasharray="1,1,8" xlink:href="#path-1"></use>
+                <rect id="Rectangle-3-Copy-8" fill="#EAEAEA" x="0.717703349" y="22.2488038" width="269.856459" height="43.062201"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

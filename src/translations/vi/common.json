@@ -1,0 +1,859 @@
+{
+    "header": {
+        "logo": "hackathon - Nền tảng cho thuê xe tự lái tại Việt Nam"
+    },
+    "background_area": {
+        "quick_book": {
+            "input": {
+                "btn": "Tìm xe",
+                "date_drop": "Ngày trả xe",
+                "date_pick": "Ngày nhận xe",
+                "time_drop": "Giờ trả xe",
+                "time_pick": "Giờ nhận xe"
+            },
+            "province": {
+                "hcm": "Hồ Chí Minh",
+                "hn": "Hà Nội",
+                "title": "Chọn tỉnh thành"
+            },
+            "title": "Bạn cần thuê xe?",
+            "type": {
+                "car": "Ô tô",
+                "motor": "Xe máy"
+            },
+            "error": {
+                "not_enough": "Bạn chưa nhập đủ thông tin",
+                "vhc_type": "Bạn chưa chọn loại xe",
+                "city": "Bạn chưa chọn tỉnh thành",
+                "rental_date": "Bạn chưa chọn thời gian thuê xe",
+                "return_date": "Bạn chưa chọn thời gian trả xe"
+            },
+            "require": {
+                "text1": "Bạn muốn",
+                "text2": "Thuê xe có lái",
+                "text3": "hay",
+                "text4": "Yêu cầu khác",
+                "text5": "đặt vé xe Limousine"
+            }
+        },
+        "text1": "hackathon - Cùng bạn trên mọi nẻo đường",
+        "text2": "Đi lại thoải mái không giới hạn cùng hackathon",
+        "text3": "Thuê xe tự lái - Thoải mái hành trình"
+    },
+    "notification": {
+        "title": "Khách vừa thuê xe tại",
+        "content": {
+            "name": "Tên",
+            "phone": "ĐT",
+            "price": "Giá",
+            "unit": "đ"
+        }
+    },
+    "booking": {
+        "car": "Ô tô",
+        "motor": "Xe máy",
+        "received_vehicle": {
+            "at_home": "Nhận xe tại nhà",
+            "at_agency": "Nhận xe tại đại lý"
+        }
+    },
+    "footer": {
+        "contact": {
+            "email": "support@hackathon.vn",
+            "phone": "19006022",
+            "title": "Liên hệ",
+            "name": "Công ty CP Chung Xe",
+            "address1": "Hà Nội: Tầng 5, 166 Phố Huế, Hai Bà Trưng",
+            "address2" : "Đà Nẵng: Tầng 3, 31 Trần Phú, Hải Châu",
+            "address3": "Hồ Chí Minh: Tầng 7, Avenis Building,",
+            "address4": "145 Điện Biên Phủ, Q.1",
+            "contact_email": "contact@hackathon.vn",
+            "contact_phone1": "0903.22.99.06",
+            "contact_phone2": "0903229906",
+            "contact_phone3": "(Zalo/ Viber, 24/7)",
+            "contact_hotline1": "1900636585",
+            "contact_hotline2": "1900.636.585",
+            "contact_hotline3": "(Giờ hành chính)"
+        },
+        "copyright": {
+            "content": "Bản quyền © 2018 thuộc về hackathon.",
+            "regulations": "Quy định",
+            "rules": "Điều khoản"
+        },
+        "introduction": {
+            "about": "Về chúng tôi",
+            "news": "Tin tức",
+            "partner": "Đối tác",
+            "recruitment": "Tuyển dụng",
+            "title": "Giới thiệu",
+            "certification": "CHỨNG NHẬN"
+        },
+        "policy": {
+            "incident": "Sự cố và khiếu nại",
+            "insurance": "Chính sách bảo mật thông tin",
+            "partner": "Đối tác vận chuyển",
+            "service": "Quy chế hoạt động",
+            "title": "Chính sách",
+            "register_promotion": "Đăng kí nhận tin khuyến mãi"
+        },
+        "support": {
+            "car_rental": "Hướng dẫn thuê xe",
+            "handbook": "Cẩm nang thuê xe tự lái",
+            "questions": "Câu hỏi thường gặp",
+            "title": "Hỗ trợ",
+            "use": "Hướng dẫn cho thuê xe",
+            "contract": "Hợp đồng thuê xe tự lái",
+            "blog": "hackathon blog"
+        }
+    },
+    "howitwork_area": {
+        "btn": "Xem chi tiết",
+        "step1": {
+            "content": "Nhanh chóng đặt một chiếc xe ưng ý thông qua Website của chúng tôi",
+            "title": "Đặt xe"
+        },
+        "step2": {
+            "content": "Nhận xe tại nhà hoặc các đại lý trong khu vực của chúng tôi",
+            "title": "Nhận xe"
+        },
+        "step3": {
+            "content": "Tất cả các phương tiện của chúng tôi đều đoạt chuẩn an toàn",
+            "title": "Tận hưởng"
+        },
+        "title": "Đặt xe như thế nào"
+    },
+    "media": {
+        "benefit": "Lợi ích của việc đi chung xe",
+        "btn": "Tìm hiểu thêm",
+        "holiday": "Chung xe dịp lễ tết",
+        "service": "hackathon - Dịch vụ thiết thực vì lợi ích cộng đồng",
+        "title": "Truyền thông nói về chúng tôi",
+        "video": "OtoSharing - Ứng dụng chia sẻ xe tự lái",
+        "express": "hackathon nằm trong Top 15 Startup Việt 2018",
+        "hackathon": "Ý tưởng “Booking.com trong lĩnh vực cho thuê xe ô tô tự lái”",
+        "startup": "Doanh nhân 8x và nền tảng trực tuyến chia sẻ xe tự lái - Startup VnExpress",
+        "hist": "hackathon lọt vào vòng chung kết HIST 2018"
+    },
+    "featured_products": {
+        "only": "Chỉ từ",
+        "unit": "VNĐ/ngày"
+    },
+    "menu": {
+        "account": {
+            "exit": "Đăng xuất",
+            "history": "Lịch sử thuê xe",
+            "info": "Thông tin cá nhân",
+            "password": "Đổi mật khẩu",
+            "payment": "Thông tin thanh toán"
+        },
+        "btn": "Trở thành đối tác",
+        "home": "Về chúng tôi",
+        "login": "Đăng nhập",
+        "promotion": "Khuyến mãi",
+        "search": "Tra cứu đặt xe",
+        "support": "Hỗ trợ",
+        "register": "Đăng ký"
+    },
+    "partner_area": {
+        "title": "Đối tác của chúng tôi"
+    },
+    "products": {
+        "title": "Sản phẩm nổi bật"
+    },
+    "useful_area": {
+        "convenient": {
+            "content": "Dễ dàng tìm kiếm, so sánh và đặt chiếc xe như ý với chỉ vài click chuột",
+            "title": "Thuận tiện"
+        },
+        "opt": {
+            "content": "Hàng trăm loại xe đa dạng ở nhiều địa điểm trên cả nước, phù hợp với mọi mục đích của bạn",
+            "title": "Nhiều lựa chọn"
+        },
+        "price": {
+            "content": "Giá thuê được niêm yết công khai và rẻ hơn 10% so với giá truyền thống",
+            "title": "Giá cả cạnh tranh"
+        },
+        "security": {
+            "content": "An tâm với các gói bảo hiểm vật chất và tai nạn trong suốt quá trình thuê xe",
+            "title": "Bảo hiểm"
+        },
+        "support": {
+            "content": "Có nhân viên hỗ trợ khách hàng trong suốt quá trình thuê xe",
+            "title": "Hỗ trợ 24/7"
+        },
+        "title": "Lợi ích của hackathon",
+        "trust": {
+            "content": "Các xe đều có thời gian sử dụng dưới 3 năm và được bảo dưỡng thường xuyên",
+            "title": "Tin cậy"
+        }
+    },
+    "validate": {
+        "email": "Email không đúng định dạng",
+        "required": "Bắt buộc",
+        "phone": "Số điện thoại không đúng",
+        "password": "Mật khẩu quá ngắn",
+        "confirm": "Mật khẩu không khớp",
+        "email_phone": "Email/Số điện thoại không đúng",
+        "quick_book": "Vui lòng nhập đầy đủ thông tin"
+    },
+    "change_password": {
+        "title": "Đổi mật khẩu",
+        "pass_old": "Mật khẩu cũ",
+        "pass_new": "Mật khẩu mới",
+        "pass_confirm": "Nhập lại mật khẩu",
+        "placeholder_passold": "Nhập mật khẩu cũ...",
+        "placeholder_passnew": "Nhập mật khẩu mới...",
+        "placeholder_confirm": "Nhập lại mật khẩu..."
+    },
+    "payment_info": {
+        "title": "THÔNG TIN THANH TOÁN",
+        "btn_add": "Thêm hình thức thanh toán"
+    },
+    "history_rental": {
+        "placeholder_comment": "Cảm nhận của bạn",
+        "btn_comment": "Lưu nhận xét",
+        "info_customer": "THÔNG TIN KHÁCH HÀNG",
+        "detail_reservation": "CHI TIẾT ĐẶT XE",
+        "name": "Họ tên",
+        "phone": "Số điện thoại",
+        "email": "Email",
+        "address_received": "Địa điểm nhận xe",
+        "status": "Trạng thái",
+        "payment_form": "Hình thức thanh toán",
+        "code_received": "Mã đặt xe",
+        "value_tax": "Giá thuê",
+        "time_rental": "Thời gian thuê",
+        "btn_back": "Quay lại"
+    },
+    "history": {
+        "menu": {
+            "complete": "Hoàn tất",
+            "upcoming": "Sắp tới",
+            "hiring": "Đang thuê",
+            "cancelled": "Đã hủy",
+            "type": {
+                "car": "Ô tô",
+                "motor": "Xe máy"
+            }
+        },
+        "complete": {
+            "code_received": "Mã đặt xe: ",
+            "date_book": "Ngày đặt: ",
+            "time": "Thời gian: ",
+            "price_rent": "Giá thuê: ",
+            "btn_detail": "Chi tiết",
+            "btn_cancel": "Hủy đặt xe"
+        }
+    },
+    "user_info": {
+        "title": "THÔNG TIN CÁ NHÂN",
+        "name": "Họ & tên",
+        "phone": "Số điện thoại",
+        "email": "Email",
+        "edit": "Chỉnh sửa",
+        "license": {
+            "title": "Bằng lái xe",
+            "add1": "Mặt trước bằng lái xe",
+            "add2": "Mặt sau bằng lái xe"
+        },
+        "change_avatar": "Thay ảnh đại diện",
+        "image": {
+            "update": "Cập nhật",
+            "title": "Cập nhật ảnh đại diện",
+            "action": "Tải ảnh lên",
+            "success": "Cập nhật ảnh thành công"
+        },
+        "cmnd": {
+            "title": "Chứng minh nhân dân/ Thẻ căn cước/ Passport",
+            "add1": "Mặt trước CMND/CCCD/Passport",
+            "add2": "Mặt sau CMND/CCCD/Passport"
+        },
+        "so_ho_khau": {
+            "title": "Sổ hộ khẩu/KT3",
+            "add": "Chọn file"
+        }
+    },
+    "register": {
+        "email": {
+            "label": "Email",
+            "placeholder": "Nhập email..."
+        },
+        "phone": {
+            "label": "Số điện thoại",
+            "placeholder": "Nhập số điện thoại..."
+        },
+        "password": {
+            "label": "Mật khẩu",
+            "placeholder": "Nhập mật khẩu..."
+        },
+        "confirm": {
+            "label": "Nhập lại mật khẩu",
+            "placeholder": "Nhập lại mật khẩu..."
+        },
+        "btn_register": "Đăng kí",
+        "btn_back": "Quay lại",
+        "note": "nội dung bắt buộc"
+    },
+    "login": {
+        "email": {
+            "label": "Email/Số điện thoại",
+            "placeholder": "Nhập email/Số điện thoại..."
+        },
+        "password": {
+            "label": "Mật khẩu",
+            "placeholder": "Nhập mật khẩu...",
+            "forget": "Quên mật khẩu"
+        },
+        "btn_login": "Đăng nhập",
+        "btn_back": "Quay lại",
+        "path": "hoặc đăng nhập bằng"
+    },
+    "customer_info": {
+        "title": {
+            "head": "Thông tin khách hàng",
+            "description": "Nhập thông tin cá nhân để tiến hành đặt"
+        },
+        "form": {
+            "fullname": {
+                "label": "Họ và tên (*)",
+                "placeholder": "Nhập họ tên"
+            },
+            "phone": {
+                "label": "Số điện thoại (*)",
+                "placeholder": "Nhập số điện thoại"
+            },
+            "address": {
+                "label": "Địa chỉ nhận xe ",
+                "placeholder": "Nhập địa chỉ nhận xe "
+            },
+            "email": {
+                "label": "Email (*)",
+                "placeholder": "Nhập email"
+            },
+            "payment": {
+                "label": "Hình thức thanh toán (*)",
+                "select": "Chọn hình thức thanh toán"
+            },
+            "note": "Lưu ý",
+            "btn_next": "Nhập thông tin để hoàn tất",
+            "btn_back": "Quay lại",
+            "btn_complete":"Hoàn tất"
+        }
+    },
+    "process": {
+        "one": "Chọn xe",
+        "two": "Xem giá và thủ tục",
+        "three": "Thông tin khách hàng",
+        "four": "Hoàn tất"
+    },
+    "complete": {
+        "content": {
+            "title": "ĐẶT XE THÀNH CÔNG",
+            "text": {
+                "line1": "Yêu cầu đặt xe của bạn đã được hệ thống ghi nhận.",
+                "line2": "Chúng tôi sẽ liên lạc lại với bạn để thông báo tình trạng của xe ít nhất 6h trước thời điểm thuê xe."
+            },
+            "book_code": "Mã đặt xe của bạn:",
+            "btn_home": "Về trang chủ",
+            "btn_cancel": "Hủy đặt xe",
+            "book_status": "Xe đã sẵn sàng",
+            "note": "Lưu ý:",
+            "content_note": {
+                "line1": "- Thanh toán tiền thuê xe trước khi chạy xe",
+                "line2": "- Nếu thuê xe từ 02 ngày trở lên phải kiểm tra nước làm mát, dầu máy, nếu thiếu phải bổ sung ngay.",
+                "line3": "- Khi xe đang vận hành thường xuyên để ý đèn báo hiệu trên bảng taplo, nếu thấy đèn báo sự cố, hoặc xe có hiện tượng khác thường phải dừng xe kiểm tra hoặc gọi điện thoại báo ngay cho Bên cho thuê xe. Nếu không Bên cho thuê xe sẽ chịu hoàn toàn phí sửa xe.",
+                "line4": "- Nghiêm túc chấp hành luật giao thông đường bộ. Tự chịu trách nhiệm dân sự, hình sự trong suốt thời gian thuê xe.",
+                "line5": "- Tự chịu chi phí xăng dầu, cầu phà, bến bãi, tiền phạt nóng, tiền phạt nguội theo các lỗi mà luật pháp Việt Nam quy định.",
+                "line6": "- Trong trường hợp bên thuê xe vi phạm, và bị phạt nguội, sẽ phải chịu hoàn toàn trách nhiệm cùng tổn phí bị phạt."
+            },
+            "content_note_motor": {
+                "l1": "- Chuẩn bị đầy đủ các loại giấy tờ cần thiết cho việc thuê xe: CMND, Bằng lái xe ",
+                "l2": "- Chọn loại xe (xe số, xe tay ga, xe côn) phù hợp với địa hình và thói quen.",
+                "l3": "- Kiểm tra kỹ chất lượng xe trước khi thuê: bộ đề, xi nhanh, còi, gương, phanh chân, phanh tay, cổ xe..",
+                "l4": "- Đọc kỹ hợp đồng thuê xe và các điều kiện phụ trội như số km giới hạn, quá thời gian thuê xe…"
+            }
+        },
+        "customer": {
+            "title": "THÔNG TIN KHÁCH HÀNG",
+            "fullname": "HỌ & TÊN",
+            "phone": "SỐ ĐIỆN THOẠI",
+            "email": "EMAIL",
+            "address": "ĐỊA CHỈ NHẬN XE",
+            "btn": "Chỉnh sửa"
+        },
+        "vehicle": {
+            "title": "CHI TIẾT ĐẶT XE",
+            "status": "TRẠNG THÁI",
+            "payment": "THANH TOÁN",
+            "code": "MÃ ĐẶT XE",
+            "type": "LOẠI XE",
+            "form": "HÌNH THỨC NHẬN XE",
+            "time": "THỜI GIAN",
+            "btn": "Chỉnh sửa",
+            "value": "Giá trị đặt xe",
+            "equals": "hoặc tương đương"
+        }
+    },
+    "select_carriage": {
+        "vehicle": {
+            "btn_detail": "Đặt ngay",
+            "note1": "Giá tính theo ngày",
+            "note2": "Giá chưa bao gồm phí giao xe",
+            "unit": "VNĐ"
+        },
+        "left": {
+            "car": "Ô tô",
+            "motor": "Xe máy",
+            "motorbike": "Xe tay ga",
+            "handclutch": "Xe tay côn",
+            "hanoi": "Hà Nội",
+            "hcm": "Hồ Chí Minh",
+            "hue": "Huế",
+            "price_range": "Tầm giá",
+            "select_seat": "Chọn số chỗ",
+            "select_transmission": "Chọn loại động cơ",
+            "select_brand": "Chọn hãng xe"
+        },
+        "options": {
+            "range": "Sắp xếp kết quả",
+            "increase": "Từ thấp đến cao",
+            "reduction": "Từ cao đến thấp",
+            "grid": "Lưới",
+            "list": "Danh sách",
+            "map": "Bản đồ"
+        },
+        "unit": "VNĐ",
+        "day": "/ ngày"
+    },
+    "preview_price": {
+        "unit": "VNĐ",
+        "day": "/ ngày",
+        "info_right": {
+            "mode": "HÌNH THỨC NHẬN XE",
+            "placeholder": "Chọn hình thức nhận xe",
+            "at_home": "Nhận xe tại nhà",
+            "at_dealer": "Nhận xe tại đại lý",
+            "time": "THỜI GIAN",
+            "promotion_code": "MÃ KHUYẾN MÃI",
+            "placeholder_promotion": "Nhập mã khuyến mãi...",
+            "limit_distance": "GIỚI HẠN QUÃNG ĐƯỜNG",
+            "price_detail": "CHI TIẾT GIÁ",
+            "price": "Đơn giá ngày",
+            "day": "Ngày",
+            "total": "TỔNG",
+            "note": "*tổng số tiền chưa bao gồm phí giao xe",
+            "btn_continue": "Đặt xe",
+            "btn_back": "Quay lại"
+        },
+        "info_left": {
+            "describe": "MÔ TẢ",
+            "features": "TÍNH NĂNG",
+            "procedure": "THỦ TỤC",
+            "payment": "CHẤP NHẬN THANH TOÁN",
+            "prepay": "Trả trước",
+            "postpaid": "Trả sau",
+            "same": "HOẶC TƯƠNG ĐƯƠNG",
+            "note": "GHI CHÚ",
+            "address": "ĐỊA CHỈ"
+        },
+        "info_car": {
+            "seat": "chỗ",
+            "gasoline": "xăng",
+            "auto": "Số tự động",
+            "air_conditioner": "Điều hòa",
+            "motorbike": "Xe máy",
+            "cmnd_passport": "CMND/Passport",
+            "sunroof": "Cửa sổ trời",
+            "bluetooth": "Bluetooth",
+            "gprs": "Định vị GPRS",
+            "usb": "Khe cắm USB",
+            "note": "(Dành cho du khách)"
+        },
+        "info_motor": {
+            "gasoline": "Xăng",
+            "disc_brakes": "Phanh đĩa",
+            "scooter": "Tay ga",
+            "anti_lock": "Chống bó phanh",
+            "smart_lock": "Khóa thông minh",
+            "license": "Bằng lái xe",
+            "cmnd_passport": "CMND/Passport"
+        },
+        "note": "Giá này chỉ áp dụng với ngày thường, giá trong ngày lễ sẽ tăng thêm từ 20% - 50%. Vui lòng liên hệ hotline 1900636585 để biết thêm chi tiết!",
+        "lable-note":"Lưu ý"
+    },
+    "about": {
+        "company": {
+            "title": "VỀ CHÚNG TÔI",
+            "l1": "hackathon là một Startup tiên phong trong việc phát triển nền tảng trực tuyến cho thuê và chia sẻ xe tự lái ở Việt Nam.",
+            "l2": "hackathon cho phép khách hàng có nhu cầu thuê xe tự lái (ô tô, xe máy) có thể kết nối với các đơn vị cho thuê xe cũng như cá nhân có xe nhàn rỗi trên khắp cả nước thông qua website hoặc ứng dụng di động. Khách hàng có thể tìm kiếm, so sánh và thuê xe  một cách dễ dàng, nhanh chóng.",
+            "l3": "hackathon được ra đời với sứ mệnh mang đến nền tảng công nghệ hiện đại cho phép việc thuê và chia sẻ xe một cách Nhanh chóng, An toàn và Tiết kiệm. hackathon hướng tới một cộng đồng cho thuê và chia sẻ phương tiện đi lại một cách văn minh và thân thiện với môi trường. "
+          },
+        "why-do": {
+            "title": "Tại sao chúng tôi làm?",
+            "l1": " Hiện nay, ở Việt Nam chưa có một nền tảng trực tuyến cho thuê và chia sẻ xe máy, ô tô tự lái. ",
+            "l2": " Khách thuê xe gặp rất nhiều khó khăn để thuê được một chiếc xe tự lái như ý trong khi cá nhân có xe nhàn rỗi hoặc các đơn vị cho thuê xe tự lái chưa có một công nghệ đủ tốt để quản lý, tối ưu tài sản của mình.",
+            "l3": " Với sự bùng nổ của xu hướng công nghệ 4.0 thì các tiện ích của việc đặt dịch vụ vận chuyển qua kênh online/ mobile cũng như công nghệ chia sẻ xe đang ngày càng phát triển và phổ biến.",
+            "l4": " Chia sẻ phương tiện đang dần trở thành xu hướng chính trên thế giới thay thế cho việc sở hữu xe."
+        },
+        "operating": {
+            "title": "Phương thức hoạt động",
+            "l1": "Ngay cả những vấn đề phức tạp nhất cũng có một giải pháp phù hợp để giải quyết. Tại hackathon, chúng tôi không chỉ cho thuê xe, chúng tôi tạo ra những sản phẩm hoàn chỉnh trong hệ sinh thái hiện có. Chúng tôi dựa trên công nghệ để cung cấp một giải pháp toàn diện cho vấn đề đi lại đô thị bằng cách kết nối hành khách với các nhà cung cấp dịch vụ cho thuê xe tự lái. Tầm nhìn của chúng tôi tại hackathon là cung cấp một nền tảng mà chủ sở hữu xe có thể thu hút khách hàng và tiến hành kinh doanh một cách thuận tiện. Chúng tôi tập trung nỗ lực vào việc đơn giản hóa quá trình thuê xe bằng cách tạo ra các cơ chế có thể mở rộng để tiến hành và tạo thuận lợi cho các giao dịch trong khi chứng minh một phương thức giao thông kinh tế cho tất cả mọi người."
+        }
+    },
+    "policy": {
+        "title": "SỰ CỐ VÀ KHIẾU NẠI",
+        "purpose": {
+            "title": "CHÍNH SÁCH BẢO MẬT THÔNG TIN",
+            "l0": " Thông tin cá nhân của bạn chỉ được dùng trong những mục đích sau đây:",
+            "l1": " - Hỗ trợ việc đặt xe và cung cấp xe cho bạn.",
+            "l2": " - Liên lạc bạn trong cho mục đích tiếp thị của hackathon.",
+            "l3": " - Nâng cao chất lượng dịch vụ và hỗ trợ khách hàng.",
+            "l4": " - Giải quyết các sự vụ và tranh chấp phát sinh liên quan đến việc sử dụng dịch vụ trên hackathon.",
+            "l5": " - Cung cấp thông tin cho các cơ quan thực thi pháp luật theo yêu cầu."
+          },
+        "limit": {
+            "title": "Phạm vi sử dụng thông tin",
+            "l0": " Nền tảng hackathon sử dụng thông tin thành viên cung cấp để:",
+            "l1": " Gửi các thông báo về các hoạt động trao đổi thông tin giữa thành viên và nền tảng hackathon.",
+            "l2": " Ngăn ngừa các hoạt động phá hủy tài khoản người dùng của thành viên hoặc các hoạt động giả mạo Thành viên.",
+            "l3": " Liên lạc và giải quyết với thành viên trong những trường hợp đặc biệt.",
+            "l4": " Không sử dụng thông tin cá nhân của thành viên ngoài mục đích xác nhận và liên hệ có liên quan đến đặt xe và cung cấp xe.",
+            "l5": " Trong trường hợp có yêu cầu của pháp luật: Nền tảng hackathon có trách nhiệm hợp tác cung cấp thông tin cá nhân thành viên khi có yêu cầu từ cơ quan tư pháp bao gồm: Viện kiểm sát, tòa án, cơ quan công an điều tra liên quan đến hành vi vi phạm pháp luật nào đó của thành viên. Ngoài ra, không ai có quyền xâm phạm vào thông tin cá nhân của thành viên."
+        },
+        "time": {
+            "title": "Thời gian lưu giữ thông tin",
+            "l1": "Dữ liệu cá nhân của Khách hàng sẽ được lưu trữ cho đến khi có yêu cầu hủy bỏ hoặc tự Khách hàng đăng nhập và thực hiện hủy bỏ. Còn lại trong mọi trường hợp thông tin cá nhân của Khách hàng sẽ được bảo mật trên máy chủ của Công ty."
+        },
+        "service": {
+            "title": "QUY CHẾ HOẠT ĐỘNG",
+            "title1": "Chấp nhận các điều khoản",
+            "title2": "Mô tả dịch vụ",
+            "title3": "Trách nhiệm với tài khoản và mật khẩu được cung cấp",
+            "title4": "Trách nhiệm cung cấp thông tin",
+            "title5": "Trách nhiệm về nội dung đăng tải",
+            "title6": "Hạn chế hoạt động",
+            "title7": "Giới hạn trách nhiệm",
+            "title8": "Bảo mật",
+            "title9": "Sở hữu trí tuệ",
+            "l1": "Thỏa thuận sau đây là một thỏa thuận ràng buộc pháp lý giữa Bạn (có thể là 'Chủ xe' ,hoặc 'Lái xe') và nhóm điều hành mạng cộng đồng hackathon ('Chúng tôi'). Thỏa thuận bao gồm các điều khoản dịch vụ mà bạn phải tuân thủ để được quyền tiếp cận và sử dụng dịch vụ của chúng tôi. Điều khoản dịch vụ này được áp dụng ngay cả khi bạn không có tài khoản hackathon và việc Bạn sử dụng dịch vụ hackathon nghĩa là bạn chấp nhận Điều khoản dịch vụ này. Tại từng thời điểm, chúng tôi có thể cập nhật Điều khoản dịch vụ theo quyết định của mình mà không cần thông báo trực tiếp cho bạn. Bạn chịu trách nhiệm tìm hiểu phiên bản mới nhất bằng cách truy cập website www.hackathon.vn.",
+            "l2": "XIN VUI LÒNG ĐỌC ĐIỀU KHOẢN DỊCH VỤ NÀY MỘT CÁCH CẨN TRỌNG TRƯỚC KHI ĐĂNG KÝ LÀM THÀNH VIÊN. NẾU BẠN KHÔNG ĐỒNG Ý VỚI NHỮNG RÀNG BUỘC CỦA ĐIỀU KHOẢN DỊCH VỤ NÀY, VUI LÒNG KHÔNG SỬ DỤNG HOẶC TRUY CẬP DỊCH VỤ CỦA CHÚNG TÔI",
+            "l3": "hackathon là cộng đồng online chia sẻ các phương tiện giao thông (xe máy, ôtô) tự lái được lưu thông trên thị trường. Mạng kết nối những người có nhu cầu cho thuê xe và người muốn thuê xe tự lái. Khi bạn có một tài khoản tại hackathon, bạn có thể dễ dàng cho thuê hoặc thuê một phương tiện vận tải (xe máy, ôtô) tự lái qua các tiện ích mà chúng tôi cung cấp. Các tiện ích này được gọi chung là “Dịch vụ” Bạn cũng hiểu và đồng ý rằng Dịch Vụ này bao gồm một số thông tin liên lạc của Ban quản trị hackathon qua các phương tiện như email, SMS, Website.. và rằng các thông tin liên lạc này được coi là một phần không tách rời của Dịch vụ và Bạn sẽ không thể từ chối nhận các thông tin này trừ khi Bạn chấm dứt tài khoản của mình. ",
+            "l4": "",
+            "l5": "Bạn sẽ nhận được một mật khẩu và tài khoản sau khi hoàn tất thủ tục đăng ký sử dụng Dịch Vụ. Bạn có trách nhiệm bảo mật mật khẩu và tài khoản, và hoàn toàn chịu trách nhiệm đối với tất cả các hoạt động diễn ra dưới việc sử dụng mật khẩu hoặc tài khoản của mình. ",
+            "l51": "(a) Bạn đồng ý thông báo ngay cho chúng tôi về bất cứ trường hợp nào sử dụng trái phép mật khẩu hoặc tài khoản của bạn hoặc bất cứ trường hợp nào khác vi phạm sự bảo mật ",
+            "l52": "(b) Bảo đảm rằng bạn luôn thoát khỏi tài khoản của mình sau mỗi lần sử dụng. Chúng tôi không thể và sẽ không chịu trách nhiệm đối với bất cứ tổn thất hoặc thiệt hại nào phát sinh do Bạn không tuân thủ quy định này",
+            "l6": "Với tư cách là người sử dụng dịch vụ, bạn phải cam kết:  ",
+            "sv161": "(a) Bạn có đủ tư cách pháp lý và tư cách hành vi khi sử dụng dịch vụ",
+            "sv162": "(b) Cung cấp các thông tin mới nhất, đầy đủ, trung thực và chính xác về bản thân trong Hồ sơ cá nhân ",
+            "sv163": "(c) Duy trì và cập nhật kịp thời Hồ sơ cá nhân để bảo đảm rằng dữ liệu này là đầy đủ, trung thực và chính xác.",
+            "sv164": " Nếu bạn cung cấp bất cứ thông tin nào không phải là không trung thực hoặc không chính xác, hoặc nếu hackathon có căn cứ hợp lý để nghi ngờ rằng thông tin đó không trung thực hoặc không chính xác, hackathon có quyền đình chỉ hoặc chấm dứt tài khoản của Bạn; từ chối một phần hoặc toàn bộ việc sử dụng Dịch vụ tại thời điểm hiện tại hoặc trong tương lai",
+            "l7": "Bạn hiểu rằng bạn hoàn toàn chịu trách nhiệm trước pháp luật về các Nội dung bạn tạo ra bao gồm nhưng không giới hạn ở dữ liệu, văn bản, phần mềm, âm thanh, hình ảnh, video, email. Chúng tôi không có nghĩa vụ theo dõi các tài liệu được đăng và vì vậy, không bảo đảm về tính hợp pháp, chính xác, nguyên vẹn hoặc chất lượng của Nội Dung đó. Tại các khu vực được phép đăng tải Nội dung, bạn có thể chia sẻ thông tin được phép dưới các định dạng chúng tôi mặc định và bạn phải tự chịu trách nhiệm đối với các nội dung, thông tin, hình ảnh và bất kỳ sự chia sẻ nào khác của bạn với cá nhân người sử dụng hoặc nhóm người sử dụng. Tuy nhiên, trong mọi trường hợp, chúng tôi vẫn được bảo lưu quyền xử lý các thông tin đăng tải cho phù hợp với thuần phong mỹ tục, các quy tắc đạo đức và các quy tắc đảm bảo an ninh quốc gia, và chúng tôi có toàn quyền cho phép hoặc không cho phép bài viết của bạn xuất hiện hay tồn tại tại các khu vực được phép chia sẻ thông tin.",
+            "l8": "Không giới hạn các biện pháp khắc phục hậu quả khác, chúng tôi có thể chấm dứt sự tham gia của bạn, loại bỏ thông tin của bạn, cảnh báo cộng đồng về hành động của bạn và từ chối cung cấp dịch vụ nếu: ",
+            "sv181": "(a) Bạn đã sử dụng sai mục đích các các dịch vụ, có hành vi trái pháp luật hoặc đạo đức",
+            "sv182": "(b) Chúng tôi có căn cứ hợp lý để nghi ngờ rằng thông tin bạn cung cấp không trung thực hoặc không chính xác",
+            "sv183": "(c) Chúng tôi tin rằng hành động của bạn là gian lận, lừa đảo và có thể gây ra tổn thất tài chính hoặc trách nhiệm pháp lý cho cộng đồng hoặc chúng tôi ",
+            "sv184": "(d) Sử dụng các dịch vụ với mục đích thương mại mà không có sự đồng ý trước bằng văn bản đồng ý của chúng tôi ",
+            "sv185": "(e) Vi phạm các quyền của chúng tôi hoặc bên thứ ba, bao gồm nhưng không giới hạn quyền sở hữu trí tuệ, quyền tác giả, bằng sáng chế, thương hiệu, bí mật thương mại hoặc các quyền riêng tư",
+            "sv186": "(f) Phát tán các ứng dụng độc hại hoặc tấn công chiếm đoạt quyền điều khiển hệ thống, dữ liệu hoặc thông tin cá nhân",
+            "l9": "Bạn hiểu rõ và đồng ý rằng: ",
+            "sv91": "(a) Việc bạn sử dụng dịch vụ vận tải của người khác tham gia giao thông là quyết định của bạn. Bạn chịu toàn bộ các rủi ro phát sinh. Chúng tôi khước từ một cách rõ ràng tất cả các bảo đảm dưới bất kì hình thức nào về chất lượng dịch vụ hoặc uy tính cá nhân của các bên tham gia. ",
+            "sv92": "(b) Chúng tôi không có nghĩa vụ phải xử lí các khiếu nại liên quan đến chất lượng dịch vụ vận tải mà các bên cung cấp và từ chối tất cả các ràng buộc liên quan đến trách nhiệm cả về đạo đức về pháp lí khi có những hậu quả đáng tiếc trong quá trình các thành viên sử dụng phương tiện vận tải. ",
+            "sv93": "(c) Chúng tôi không chịu trách nhiệm đối với dịch vụ vận tải của bên thứ ba sử dụng thông tin của chúng tôi để cung cấp dịch vụ cho các bạn. ",
+            "sv94": "(d) Chúng tôi không đảm bảo rằng:  ",
+            "sv941":"(i) Dịch vụ sẽ không bị gián đoạn, kịp thời, an toàn hoặc không có lỗi",
+            "sv942": "(ii) Dịch vụ có thể được truy cập tại bất kì thời điểm nào hoặc tại từng thời điểm qua kênh mà bạn lựa chọn hoặc sử dụng",
+            "sv943": "(iii) Thông tin, nội dung hoặc các quảng cáo có trong dịch vụ sẽ chính xác hoặc đáng tin cậy",
+            "sv944": "(iv) Việc mất mát dữ liệu và các nội dung khác được bảo đảm tối đa",
+            "sv95": "(e) Chúng tôi bảo lưu quyền sửa đổi, ngừng tạm thời hoặc vĩnh viễn dịch vụ cho dù có hoặc không có báo trước. Chúng tôi không có nghĩa vụ đối với bất cứ sự điều chỉnh, tạm ngưng hoặc không tiếp tục cung cấp dịch vụ.",
+            "l10": "Chúng tôi không bán hoặc cho thuê thông tin của bạn cho bên thứ ba mà không có sự cho phép của bạn và chúng tôi chỉ sử dụng thông tin của bạn như được mô tả trong Điều khoản riêng tư. Chúng tôi xem bảo vệ sự riêng tư của người sử dụng như một nguyên tắc cộng đồng quan trọng hàng đầu. Bạn có thể xem xét lại chính sách bảo mật hiện tại của chúng tôi tại Chính sách bảo mật thông tin.",
+            "l11": "Tất cả quyền sở hữu trí tuệ tồn tại trong các Dịch vụ của hackathon đều thuộc về hackathon hoặc cấp phép hợp pháp cho hackathon sử dụng. Theo đó, tất cả các quyền hợp pháp đều được đảm bảo. Trừ phi được sự đồng ý của hackathon, bạn không được phép tải lên, gửi, xuất bản, sửa đổi, tái sản xuất, truyền hoặc phân phát bằng bất cứ hình thức nào bất cứ thành phần nào của Dịch vụ hackathon cung cấp. Chúng tôi có toàn quyền, bao gồm nhưng không chỉ giới hạn trong các quyền tác giả, thương hiệu, và các quyền sở hữu khác mà chúng tôi có trong các Dịch vụ của hackathon.Tất cả các yếu tố cấu thành lên Dịch vụ mà chúng tôi cung cấp đều thuộc phạm vị sở hữu của chúng tôi cho dù đã đăng ký hoặc chưa đăng ký. Việc sử dụng quyền và sở hữu của chúng tôi cần phải được chúng tôi cho phép trước bằng văn bản. Ngoài việc cấp phép bằng văn bản, chúng tôi không cấp phép dưới bất kỳ hình thức nào khác cho dù đó là hình thức công bố hay hàm ý, hoặc thông qua việc để bạn sử dụng dịch vụ. Và do vậy, bạn không có quyền sử dụng Dịch vụ của chúng tôi vào mục đích thương mại mà không có sự cho phép bằng văn bản của chúng tôi trước đó. Bạn đồng ý để chúng tôi tự do sử dụng, tiết lộ, áp dụng và sửa đổi bất kỳ ý tưởng, khái niệm, cách thức, đề xuất, gợi ý, bình luận hoặc hình thức thông báo nào khác mà bạn cung cấp cho chúng tôi (“Phản hồi”) có liên quan tới hackathon và/hoặc dịch vụ của hackathon một cách hoàn toàn miễn phí. Bạn từ bỏ và đồng ý từ bỏ bất kỳ quyền và yêu cầu với bất kỳ khoản tiền thưởng, phí, nhuận bút, lệ phí và/ hoặc các kiểu chi trả khác liên quan đến việc chúng tôi sử dụng, tiết lộ, áp dụng, và/hoặc chỉnh sửa bất kỳ hoặc tất cả Phản hồi của bạn."
+
+        },
+
+        "incident": {
+            "title": "Sự cố và khiếu nại",
+            "l0": "Cơ chế giải quyết khiếu nại liên quan đến việc thông tin cá nhân của khách hàng:",
+            "l1": "- hackathon sẽ là đơn vị trung gian đứng ra tiếp nhận khiếu nại của người của khách hàng. Khi phát hiện sự vi phạm, người khách thuê xe, chủ xe có thể gửi khiếu nại về cho hackathon. hackathon sẽ xem xét và hỗ trợ cùng với đứng ra làm việc trực tiếp với cơ quan nhà nước có thẩm quyền, hỗ trợ cung cấp các thông tin cần thiết phục vụ cho việc khiếu nại.",
+            "l2": "- Trong trường hợp hệ thống thông tin bị tấn công làm phát sinh nguy cơ mất thông tin của người tiêu dùng, hackathon sẽ thông báo cho cơ quan chức năng trong vòng 24 (hai mươi bốn) giờ sau khi phát hiện sự cố.",
+            "l3": "Công ty và Chủ xe có trách nhiệm tiếp nhận các khiếu nại và hỗ trợ Khách hàng liên quan đến các giao dịch được kết nối thông qua Sàn giao dịch. Các khiếu nại liên quan đến việc cung cấp, sử dụng dịch vụ thuê xe trên Sàn giao dịch do Công ty chịu trách nhiệm độc lập giải quyết trên cơ sở quy định của pháp luật, Điều khoản và Điều kiện sử dụng dịch vụ, các thông báo, quy chế đã công bố với Thành viên (Khách hàng và Chủ xe). Khi phát sinh tranh chấp, Công ty đề cao giải pháp thương lượng, hòa giải giữa các bên nhằm duy trì sự tin cậy của Thành viên vào chất lượng dịch vụ của Sàn giao dịch. Khách hàng có thể thực hiện theo các bước sau:",
+            "l4": "Bước 1: ",
+            "l41": "Khách hàng khiếu nại về dịch vụ qua số điện thoại 1900 636 585 hoặc 0903 229 906  hoặc gửi mail cho Bộ phận Chăm sóc Khách hàng tại địa chỉ contact@hackathon.vn. Thời gian để Công ty tiếp nhận khiếu nại là 3 ngày kể từ ngày sử dụng dịch vụ hoặc từ ngày phát sinh sự việc.",
+            "l5": "Bước 2: ",
+            "l50": "Trong thời hạn (3) ngày làm việc kể từ khi tiếp nhận thông tin khiếu nại của Khách hàng, Bộ phận Chăm sóc Khách hàng xác nhận thông tin khiếu nại, tiến hành phân loại thông tin và thông báo cho Khách hàng:",
+            "l51": "2a. Ghi nhận các yêu cầu và các khiếu nại có liên quan đến Công ty và trong thời hạn khiếu nại.",
+            "l52": "2b. Từ chối các yêu cầu, các khiếu nại không có liên quan đến Công ty và hết thời hạn khiếu nại.",
+            "l6": "Bước 3: Giải quyết vấn đề:",
+            "l60": "Bộ phận Chăm sóc Khách hàng sẽ tiến hành xác minh, kiểm chứng và phân tích tính chất và mức độ của nội dung khiếu nại, phạm vi khiếu nại và trách nhiệm xử lý để phối hợp với Chủ xe và Bên cung cấp dịch vụ thứ 3 đưa ra biện pháp cụ thể để hỗ trợ Khách hàng giải quyết tranh chấp đó.",
+            "l61": "3a. Chuyển các vấn đề có liên quan trực tiếp đến Công ty cho các Bộ phận có liên quan kiểm tra và đối chiếu.",
+            "l62": "3b. Chuyển các vấn đề có liên quan cho Chủ xe giải quyết.",
+            "abc": "Trong thời hạn ba (3) ngày làm việc kể từ khi tiếp nhận thông báo về khiếu nại, Chủ xe có trách nhiệm phối hợp với hackathon để giải quyết, xử lý khiếu nại. Chủ xe sẽ thông báo cho Khách hàng biện pháp xử lý hoặc ủy quyền thông báo cho Công ty.",
+            "l7": "Bước 4: Đóng khiếu nại",
+            "l71": "4a. Khách hàng đồng ý với các phản hồi của Bộ phận Chăm sóc Khách hàng -> Kết thúc khiếu nại. Khách hàng không đồng ý -> Quay lại bước 3",
+            "l72": "4b. Theo dõi các giải quyết khiếu nại của Chủ xe -> Kết thúc khiếu nại khi Khách hàng và Chủ xe đã thỏa thuận xong.",
+            "l8": "Khi nhận được thông báo về biện pháp xử lý từ Chủ xe nhưng Khách hàng không đồng ý thì Công ty sẽ chủ trì việc thương lượng, hòa giải giữa Khách hàng và Chủ xe để đi đến kết quả giải quyết phù hợp với cả hai bên. Trong trường hợp Khách hàng và Chủ xe không đi đến thỏa thuận chung hoặc Khách hàng không đồng ý với những biện pháp giải quyết cuối cùng của Chủ xe và/hoặc nằm ngoài khả năng và thẩm quyền của Công ty thì Khách hàng hoặc Chủ xe có thể nhờ đến Cơ quan Nhà nước có thẩm quyền can thiệp và giải quyết theo Pháp luật nhằm đảm bảo lợi ích hợp pháp của các bên.",
+            "l9": "Công ty tôn trọng và nghiêm túc thực hiện các quy định của Pháp luật về Bảo vệ quyền lợi của người dùng. Công ty khuyến nghị Khách hàng và Chủ xe cung cấp chính xác, trung thực, chi tiết các thông tin cá nhân và nội dung đăng tin liên quan đến dịch vụ. Chúng tôi cũng đề nghị Chủ xe cần nghiêm túc tuân thủ các quy định của Pháp luật, cũng như có những hành vi phù hợp đối với Khách hàng. Mọi hành vi lừa đảo, gian lận trong kinh doanh, gây tổn hại đến người khác đều bị lên án và phải chịu hoàn toàn trách nhiệm trước Pháp luật. Các bên bao gồm Khách hàng và Chủ xe sẽ phải có trách nhiệm tích cực trong việc giải quyết khiếu nại. Chủ xe cần có trách nhiệm chủ động xử lý và cung cấp văn bản giấy tờ chứng thực thông tin liên quan đến sự việc đang có khiếu nại, tranh chấp với Khách hàng. Công ty chỉ đóng vai trò hỗ trợ, phối hợp việc thương lượng, hòa giải và giải quyết khiếu nại giữ Khách hàng và Chủ xe. Công ty cũng có trách nhiệm cung cấp những thông tin liên quan đến Khách hàng và Chủ xe nếu được Chủ xe hoặc Khách hàng hoặc Cơ quan Pháp luật có thẩm quyền yêu cầu.",
+            "l10": "Sau khi Khách hàng và Chủ xe đã giải quyết xong tranh chấp, cần có trách nhiệm báo lại cho Công ty để cập nhật tình hình. Trong trường hợp giao dịch phát sinh mâu thuẫn mà lỗi thuộc về Chủ xe: Công ty sẽ áp dụng các biện pháp xử lý vi phạm tương ứng bao gồm nhưng không giới hạn: cảnh cáo, khóa tài khoản hoặc chuyển cho Cơ quan Pháp luật có thẩm quyền tùy theo mức độ của sai phạm. Công ty sẽ chấm dứt và gỡ bỏ toàn bộ tin bài về sản phẩm, dịch vụ của Chủ xe đó trên Sàn giao dịch đồng thời yêu cầu Chủ xe bồi hoàn cho Khách hàng thỏa đáng trên cơ sở thỏa thuận với Khách hàng."
+        }
+
+    },
+    "promotion": {
+        "title": "KHUYẾN MÃI",
+        "btn_detail": "Xem chi tiết",
+        "copy": "Copy mã"
+    },
+    "guide": {
+        "title": "HỖ TRỢ",
+        "title1": "Hướng dẫn thuê xe",
+        "process1": "Tìm xe",
+        "content1": "Truy cập website hackathon.vn, lựa chọn thời gian & địa điểm bạn cần thuê xe.",
+        "process2": "Đặt xe",
+        "content2": "Dựa trên hệ thống so sánh giá, lựa chọn chiếc xe ưng ý & gửi yêu cầu về cho chúng tôi.",
+        "process3": "Nhận xe",
+        "content3": "Hoàn tất thủ tục thuê, nhận xe & bắt đầu hành trình. Bạn có thể nhận xe tại nhà hoặc đại lí của chúng tôi.",
+        "process4": "Trả xe",
+        "content4": "Trả xe sau khi kết thúc hành trình. Chấm điểm dịch vụ để cải thiện chất lượng. ",
+        "title2": "Các câu hỏi thường gặp"
+
+    },
+    "questions": {
+        "title": "CÂU HỎI THƯỜNG GẶP",
+        "frequently": {
+            "title": "Câu hỏi chung",
+            "l1": "Trở thành đối tác của hackathon",
+            "l2": "hackathon là hệ thống online booking xe tự lái nhanh chóng và đáng tin cậy. hackathon mang lại cơ hội tiếp cận hàng triệu khách hàng trên cả nước. Đây là một cơ hội lớn đối với các công ty, điểm cho thuê xe tự lái để hợp tác kinh doanh cùng phát triển."
+        },
+        "why-do": {
+            "title": "Tại sao nên trở thành đối tác của chúng tôi",
+            "step1": "Cách tham gia cộng đồng hackathon",
+            "step2": "Điều kiện tham gia",
+            "l1": "- Có khả năng tiếp cận hàng triệu khách hàng qua kênh trực tuyến của hackathon và thường xuyên nhận được đặt hàng thuê xe, gia tăng doanh thu và tối ưu thời gian sử dụng của xe.",
+            "l2": "- Theo kịp xu hướng tiêu dùng mới của hành khách là tìm kiếm và đặt xe trực tuyến hoặc qua ứng dụng di động",
+            "l3": "- Được hackathon hỗ trợ phát triển kênh đặt xe trực tuyến mà không mất chi phí đầu tư, chi phí bảo trì hệ thống và không cần nhân sự IT chuyên trách (đối với các công ty cho thuê xe)",
+            "l4": "- Cho phép đặt chỗ và trả tiền trước, đảm bảo doanh thu và chủ động trong kinh doanh.",
+            "l5": "- Có Hệ thống phản hồi của hành khách về chất lượng xe và dịch vụ cũng như chăm sóc khách hàng tự động cho phép cải thiện chất lượng dịch vụ .",
+            "l6": "- Đăng ký tham gia cách điền vào Form Đăng ký làm đối tác của hackathon",
+            "l7": "- hackathon kiểm tra năng lực cung cấp dịch vụ và chất lượng xe",
+            "l8": "- Ký hợp đồng hợp tác vận chuyển và chia sẻ doanh thu",
+            "l9": "- Các công ty/ cá nhân có xe cho thuê tự lái ",
+            "l11": "- hackathon cung cấp hợp đồng mẫu và các hướng dẫn về nguyên tắc ứng xử giữa khách thuê và chủ xe để giao dịch diễn ra thuận lợi. Khách thuê chịu trách nhiệm với quyết định thuê xe của mình và cần xem kỹ thông tin về chủ xe trước khi giao dịch. hackathon sẽ hỗ trợ cung cấp thông tin cho các bên và hỗ trợ làm việc với công an khi cần thiết.",
+            "l12": "- Khi xe bạn thuê đang lưu thông trên đường và bị hỏng, bạn phải nhanh chóng điện thoại cho chủ xe để thông báo tình hình. Chủ xe là người nắm rõ nhất tình trạng của xe, nên sẽ cho bạn những lời khuyên thiết thực nhất. Ngoài ra, hai bên cũng cần làm rõ nguyên nhân của việc hư hỏng là do bên nào để về sau định rõ người sẽ trả tiền cho phần sửa chữa đó. Bạn cũng nên lấy các số điện thoại cứu hộ khẩn cấp để đề phòng trường hợp xấu xảy ra.",
+            "l13": "- Để đề phòng trường hợp chủ xe yêu cầu mình bắt đền các hỏng hóc không phải do mình gây ra, bạn nên chụp hình, quay phim tình trạng của xe ngay lúc bạn nhận xe một cách chi tiết. Nếu thấy có dấu hiệu hư hại hoặc sắp hư hại thì phải báo ngay cho chủ xe và ghi vào trong hợp đồng thuê xe giữa hai bên. hackathon đã cung cấp hợp đồng mẫu cho chủ xe và bạn nên ghi điều đó vào trong hợp đồng. Trong trường hợp chủ xe bắt đền các hư hại mà không phải lỗi do bạn gây ra thì bạn nên đem các bằng chứng khi nhận xe và hợp đồng ra cho chủ xe xem. Bạn hoàn toàn có quyền từ chối bồi thường các lỗi mà bạn không gây ra.",
+            "l14": "- hackathon cung cấp hợp đồng mẫu và các hướng dẫn về nguyên tắc ứng xử giữa khách thuê và chủ xe để giao dịch diễn ra thuận lợi. Chủ xe chịu trách nhiệm với quyết định cho thuê xe của mình và cần xem kỹ thông tin về khách thuê trước khi giao dịch. hackathon sẽ hỗ trợ cung cấp thông tin cho các bên và hỗ trợ làm việc với công an khi cần thiết.",
+            "l15": "Để đảm bảo an toàn khi thuê xe, chủ xe nên:",
+            "l16": "- Trường hợp khách thuê thuê dài ngày thì định kỳ nên điện thoại hỏi thăm khách thuê tình hình của xe,",
+            "l17": "- Đăng ký mua bảo hiểm tự nguyện tại các công ty bảo hiểm",
+            "l18": "- Gắn định vị để kiểm tra vị trí của xe và kiểm tra thường xuyên",
+            "l19": "- Nếu phát hiện xe di chuyển đến vị trí đáng ngờ (biên giới, đi xa hơn dự kiến…) thì ngay lập tức thông báo cho hackathon.",
+            "l20": "- Nếu phát hiện định vị gắn trên xe bị cắt thì ngay lập tức báo cho hackathon và trình báo công an địa phương.",
+            "l21": "- Trong trường hợp phương tiện bị hư hỏng trong quá trình sử dụng, xin vui lòng hướng dẫn khách thuê sửa chữa và thanh toán chi phí dựa theo thỏa thuận thuê xe đã ký kết giữa khách thuê và bên cho thuê."
+        }
+    },
+    "announce": {
+        "error_api": "Có lỗi xảy ra!",
+        "success_register": "Đăng kí thành công!",
+        "error_network": "Có lỗi xảy ra, vui lòng thử lại sau!",
+        "success_change_info": "Thay đổi thông tin thành công!",
+        "error_login": "Bạn đã hết phiên đăng nhập!",
+        "success_change_pass":  "Đổi mật khẩu thành công",
+        "error_phone1": "Vui lòng nhập số điện thoại",
+        "error_phone2": "Số điện thoại không đúng",
+        "error_email1": "Vui lòng nhập email",
+        "error_email2": "Email không đúng định dạng",
+        "error_name": "Vui lòng nhập họ tên",
+        "error_address": "Vui lòng nhập địa chỉ",
+        "error_promotion": "Mã giảm giá không tồn tại!",
+        "mailchip": {
+            "sending": "Đang gửi...",
+            "error": "Email của bạn đã đăng ký trước đó!",
+            "success": "Cảm ơn bạn quan tâm đến chúng tôi!"
+        }
+    },
+    "email": {
+        "register_partner": {
+            "subject": "Thông tin đăng kí đối tác",
+            "note1": "Thông tin đăng kí đối tác của bạn đã được ghi nhận ",
+            "note2": " Chúng tôi sẽ liên hệ lại với bạn qua số điện thoại trong thời gian sớm nhất!",
+            "content": {
+                "name": "Tên đơn vị:",
+                "phone": "Số điện thoại:",
+                "email": "Email:",
+                "address": "Địa chỉ: ",
+                "title": "Tiêu đề:",
+                "content": "Nội dung: "
+            },
+            "footer": {
+                "contact": "Điện thoại: 1900 636585 – 090 450 9596",
+                "email": "Email: contact@hackathon.vn",
+                "address": "Tầng 5, 166 Phố Huế, Phường Ngô Thì Nhậm, Quận Hai Bà Trưng, Hà Nội."
+            }
+        },
+        "special_requirement" : {
+            "subject": "Thông tin đặt xe",
+            "content": {
+                "title": "Thông tin yêu cầu đặc biệt",
+                "customer": "Khách hàng:",
+                "phone": "Số điện thoại:",
+                "email": "Email:",
+                "address": "Địa chỉ:",
+                "requirement": "Yêu cầu:"
+            },
+            "note": {
+                "title": "Lưu ý:",
+                "p1": "Miễn phí thay đổi thông tin chuyến đi",
+                "p2": "hackathon.vn cam kết chất lượng dịch vụ, chất lượng xe cho những chuyến đi đặt tại hackathon.vn",
+                "link1": "Câu hỏi thường gặp",
+                "link2": "Chính sách bảo mật"
+            }
+        },
+        "booking":{
+            "subject": "Thông tin đặt xe",
+            "note": "(Yêu cầu đặt xe của bạn đã được hệ thống ghi nhận. \nChúng tôi sẽ liên lạc lại với bạn để thông báo tình trạng của xe ít nhất 6h trước thời điểm thuê xe.)",
+            "content": {
+                "book_code": "Mã vé:",
+                "create_date": "Ngày tạo:",
+                "customer": "Khách hàng:",
+                "phone":"Số điện thoại:",
+                "email":"Email:",
+                "number_day":"Số ngày thuê",
+                "address": "Địa chỉ nhận xe:",
+                "rental_time":"Giờ đặt",
+                "return_time":"Giờ trả",
+                "rental_date": "Ngày đặt:",
+                "return_date": "Ngày trả:",
+                "vhc_type": "Loại xe:",
+                "vhc_name": "Tên xe:",
+                "payment": "Phương thức thanh toán:",
+                "price_total": "Tổng giá:",
+                "partner_name": "Đối tác:"
+            }
+        }
+    },
+    "partner_form" : {
+        "title": "Đăng ký làm đối tác",
+        "form": {
+            "name_label": "Tên đơn vị *",
+            "name_placeholder": "Nhập tên đơn vị ...",
+            "phone_label": "Số điện thoại *",
+            "phone_placeholder": "Nhập số điện thoại ...",
+            "email_label": "Email *",
+            "email_placeholder": "Nhập địa chỉ email ...",
+            "address_label": "Địa chỉ",
+            "address_placeholder": "Nhập địa chỉ ...",
+            "title_label": "Tiêu đề",
+            "title_placeholder": "Nhập tiêu đề ...",
+            "content_label": "Nội dung",
+            "content_placeholder": "Nhập nội dung ..."
+        },
+        "btn_register": "Đăng ký",
+        "btn_back": "Quay lại trang chủ"
+    },
+    "partner_page": {
+        "title": "TRỞ THÀNH ĐỐI TÁC",
+        "description": {
+            "p1": "Công ty cổ phần Chung xe xin gửi lời chào trân trọng tới các Đối tác,",
+            "p2": "hackathon là một nền tảng kết nối các đơn vị cho thuê xe cũng như cá nhân có xe nhàn rỗi với khách hàng cho thuê xe tự lái trên nền tảng trực tuyến và di dộng. Khách hàng có thể dễ dàng tìm kiếm, so  sánh giá, thuê xe và thanh toán một cách thuận lợi và tiết kiệm chi phí."
+        },
+        "benefit": {
+            "title": "Lợi ích khi cộng tác với hackathon",
+            "p1": "Tiếp cận được với một lượng lớn khách hàng có nhu cầu thuê xe tự lái qua nền tảng của hackathon, là một kênh bán hàng hiệu quả",
+            "p2": "Không mất chi phí quảng cáo và nhân sự để duy trì website, fanpage..",
+            "p3": "Không mất chi phí đăng ký và duy trì khi tham gia hackathon",
+            "p4": "Chỉ tính phí khi có giao dịch thành công (phí hoa hồng)",
+            "p5": "Có công cụ quản lý xe và khách hàng một cách hiệu quả",
+            "p6": "Được hỗ trợ chạy các chương trình khuyến mãi riêng dùng mã khuyến mãi và coupon.",
+            "p7": "Chủ động trong việc đưa xe, giá, thủ tục lên hệ thống",
+            "p8": "Nắm được thông tin, lịch sử giao dịch của khách hàng và có toàn quyền trong việc quyết định cho thuê hay không",
+            "p9": "Được giới thiệu trong các chương trình truyền thông và tiếp thị của hackathon"
+        },
+        "offer": {
+            "title": "Đề xuất hợp tác",
+            "p1": "hackathon có thế mạnh về tập khách hàng du lịch và đi công tác đến từ Hà nội và TP Hồ Chí Minh và các địa điểm du lịch trong cả nước (Nha Trang, Phú Quốc, Đà Nẵng, Hội An…) cũng như tập khách hàng nước ngoài cần đặt trước dịch vụ.",
+            "p2": "hackathon sẽ đóng vai trò một đại lý cung cấp khách đến từ kênh trực tuyến cho đơn vị thuê xe để bổ xung kênh bán hàng hiện tại.",
+            "p3": "Đơn vị cho thuê xe sẽ trả phí giới thiệu khách hàng cho hackathon dựa trên các giao dịch thành công (Phí hoa hồng)."
+        },
+        "procedure": {
+            "title": "Quy trình hợp tác",
+            "p1": "Đối tác cung cấp thông tin về các loại xe, giá, thủ tục",
+            "p2": "Hai bên ký hợp đồng hợp tác",
+            "p3":  "Cấp tài khoản cho đối tác để nhận booking",
+            "p4": "Khi có khách đặt xe, thông tin sẽ được đẩy vào Email/ tài khoản cho Đối tác",
+            "p8": "Cuối tháng hai bên đối soát và thanh toán dựa trên các giao dịch thành công",
+            "p7": "Sau mỗi chuyến đi, khách hàng sẽ cung cấp đánh giá về trải nghiệm dịch vụ",
+            "p6": "Đối tác làm việc với khách hàng để chốt hợp đồng, thủ tục, địa điểm và thời gian nhận",
+            "p5": "Đối tác đảm bảo có xe để phục vụ khách hàng"
+        }
+    },
+    "change_info": {
+        "title": "Thay đổi thông tin cá nhân",
+        "name_label": "Họ tên",
+        "name_placeholder": "Nhập họ tên...",
+        "phone_label": "Số điện thoại",
+        "phone_placeholder": "Nhập số điện thoại...",
+        "email_label": "Email",
+        "email_placeholder": "Nhập email...",
+        "btn_save": "Lưu thay đổi",
+        "btn_back": "Quay lại"
+    },
+    "upload_image": {
+        "btn_upload": "Tải ảnh lên",
+        "preview_text": "Vui lòng chọn ảnh để xem trước"
+    },
+    "special_requirement": {
+        "title": "Yêu cầu thuê xe đặc biệt",
+        "form": {
+            "title": "Thông tin yêu cầu của khách hàng",
+           "require_label": "Yêu cầu",
+           "require_placeholder": "Nhập yêu cầu...",
+           "btn_send": "Gửi yêu cầu"
+        }
+    },
+    "info_unit_price": {
+        "title": "GIÁ VÀ THỦ TỤC",
+        "distance":"Quãng đường phụ trội:",
+        "unit": "Km",
+        "price": "Chi phí phụ trội:",
+        "unit_price": "vnđ",
+        "rental_date_label": "Thời gian nhận xe",
+        "rental_date_placeholder": "Ngày nhận xe",
+        "return_date_label": "Thời gian trả xe",
+        "return_date_placeholder": "Ngày trả xe",
+        "promotion": "Mã giảm giá",
+        "distance_limit": "Tối đa",
+        "unit_distance": "km/ngày",
+        "extra": "Phụ trội",
+        "unit_extra": "đ/km",
+        "day": "ngày",
+        "base_price": "Giá cơ bản",
+        "extra_fee": "Giá phụ trội",
+        "deli_price": "Giá giao xe"
+    },
+    "loading" : "Đang tải ...",
+    "loading_booking": "Đang tạo mã vé, vui lòng chờ ...",
+    "result_list": "Hiện chưa có xe bạn tìm ...",
+    "select_all": "Tất cả",
+    "question": {
+        "q0": "Tôi cần chuẩn bị những gì để thuê một chiếc xe máy?",
+        "a0": "Chứng minh thư nhân dân (bản gốc); Giấy phép lái xe (bản gốc và bản sao); Hộ chiếu (passport) nếu là người nước ngoài; Tiền đặt cọc từ 3.000.000đ trở lên tùy loại xe.",
+        "q1": "Tôi cần chuẩn bị những gì để thuê một chiếc xe ô tô tự lái?",
+        "a1": "Hộ khẩu hoặc KT3 (sổ tạm trú dài hạn), chứng minh thư nhân dân ( bản gốc hoặc bản sao), xe gắn máy kèm giấy đăng ký xe. Đặt cọc xe máy hoặc tiền mặt có trị giá từ 20.000.000đ trở lên tùy từng loại xe.",
+        "q2": "Tôi có thể đăng ký thuê xe cho người khác không?",
+        "a2": "Bạn có thể đứng tên hợp đồng để thuê cho người thân hoặc bạn bè. Tùy từng nhà xe sẽ yêu cầu bạn bổ sung thêm 1 số giấy tờ phù hợp để đứng tên hợp đồng cho thuê xe.",
+        "q3": "Tôi cần lưu ý gì khi nhận xe?",
+        "a3": "Kiểm tra kĩ giấy tờ của xe xem còn hạn hay không. Mang đầy đủ giấy tờ, đặc biệt là Bằng lái xe, và Chứng minh nhân dân. \nĐọc kỹ biên bản bàn giao xe như xem có vết trầy xước nào không, vạch xăng thực tế khi bàn giao",
+        "q4": "Khi gặp sự cố trên đường tôi phải làm gì?",
+        "a4": "Bạn nên gọi điện cho Hotline (1900 636 585 - 0903 229 906) của hackathon đồng thời liên lạc trực tiếp cho nhà xe để thông báo và thống nhất cách sửa chữa và thanh toán chi phí dựa trên thỏa thuận của hai bên.",
+        "q5": "Giá thuê xe gồm những gì, có phụ phí gì phải lưu ý không?",
+        "a5": "Giá thuê xe sẽ được tính kết hợp theo ngày và theo giờ. Nếu bạn trả xe muộn hơn giờ trong thỏa thuận, tùy từng nhà xe sẽ có mức tính phí phát sinh dựa trên số giờ quá hạn hoặc theo số kilomet vượt quá. Giá thuê xe dịp lễ tết hoặc cuối tuần thường cao hơn so với ngày thường.",
+        "q6": "Làm thế nào để đặt xe trên hackathon",
+        "a6": "Bạn có thể đặt xe qua email, điện thoại hoặc đăng ký ngay trên trang web hackathon.vn.",
+        "q7": "hackathon cho thuê những loại xe nào?",
+        "a7": "Chúng tôi có nhiều dòng cả xe máy và ô tô để phù hợp với nhu cầu của khách hàng cả thuê ngắn và dài ngày như Xe ô tô 4-5 chỗ, 7 chỗ, 9 chỗ; Xe máy tay ga, xe số, xe côn.",
+        "q8": "Tôi có thể thanh toán bằng những hình thức nào?",
+        "a8": "Thanh toán chuyển khoản, phí chuyển khoản sẽ do khách hàng chi trả. Thanh toán tiền mặt. Thanh toán thẻ tín dụng",
+        "q9": "Nếu hủy đặt xe tôi có phải chịu phí phạt không?",
+        "a9": "Bạn hoàn toàn không phải chịu phí phạt nào vì huỷ cọc trước thời điểm thực hiện hợp đồng thuê xe ( không áp dụng thuê xe trong ngày lễ, tết,…).",
+        "q10": "Xe có mới không? Chất lượng xe có tốt không?",
+        "a10": "hackathon cung cấp các dòng xe mới và được đăng kiểm đăng ký, bảo trì bảo dưỡng theo định kỳ."
+    }
+
+}

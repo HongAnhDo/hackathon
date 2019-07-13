@@ -1,0 +1,37 @@
+.body-rental {
+    width: 88%;
+    margin: 0 6% 0 6%;
+    padding-bottom: 58px;
+    padding-top: 18px;
+}
+
+.body-owner {
+    width: 88%;
+    margin: 0 6% 0 6%;
+    display: inline-flex;
+    margin-top: 58px;
+}
+
+.step {
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.20;
+    letter-spacing: normal;
+    color: #00363b;
+    padding-left: 20px;
+}
+
+.title-child-use {
+    font-size: 30px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #00363b;
+    font-family: "Montserrat";
+}

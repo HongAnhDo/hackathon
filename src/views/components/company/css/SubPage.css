@@ -1,0 +1,64 @@
+.header-page-sub{
+    width: 100%;
+    height: 259px;
+    mix-blend-mode: undefined;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 34px;
+    position: relative;
+    background-color: #f5f5f5;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    -webkit-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.2);
+}
+.bg-page-sub{
+    width: 100%;
+    height: 100%;
+    height: 100%;
+    background-size:100% auto;
+    position: absolute;
+    line-height: 259px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+  
+}
+.container-page-sub{
+    margin: 0 !important;
+    width: 100%;
+    background-color: #ffffff;
+    position: relative;
+}
+.row-child{
+    display: block
+}
+
+.item-promotion {
+    width: 384px;
+    height: 180px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .item-promotion:nth-child(3n) {
+    page-break-after: always;
+  }
+  .ic_tick{
+      width: 14px;
+      margin-top: -5px;
+  }
+  
+@media screen and (max-width: 992px) {
+    .bg-page-sub {
+        font-size: 28px;
+        padding: 3%;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .bg-page-sub {
+        font-size: 18px;
+        padding: 3%;
+    }
+}
+  

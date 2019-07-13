@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "name": "Trả sau",
+        "icon": ""
+    },
+    {
+        "id": 2,
+        "name": "Thanh toán online",
+        "icon": ""
+    },
+    {
+        "id": 3,
+        "name": "Thanh toán qua ví điện tử",
+        "icon": ""
+    }
+]

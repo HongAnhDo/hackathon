@@ -1,0 +1,46 @@
+
+.h-subpage{
+    height: 240px;
+    line-height: 240px;
+    flex-direction: "column";
+    text-align: center;  
+    display: -webkit-box;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+    line-height: 100%;
+    align-self: center; 
+}   
+    .child {
+        height: "100%";
+        text-align: center;
+        justify-content: center;
+
+    }
+    .child-1{
+        color:#ffffff;
+        line-height: 240px;
+    }
+    .child-2{
+        /* background-color:#2b6e70 ; */
+        /* background: #107d82; */
+
+        display: flex;
+    }
+    .input-search{
+        width: 440px;
+    }
+    .input-wrap {
+        text-align: center;
+    }
+    .description{
+        color: #ffffff;
+    }
+    .div-des{
+        display: table;
+        margin: 0 auto;
+        align-self: center;
+        padding: 0px 30px;
+    }
+    @media (max-width: 576px) {
+    }
