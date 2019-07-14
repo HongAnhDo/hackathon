@@ -95,8 +95,8 @@ const routes = [
         component: RentalGuide
     },
     {
-        path: "/chinh-sach/tro-thanh-doi-tac",
-        path_en: "/:language/chinh-sach/tro-thanh-doi-tac",
+        path: "/chinh-sach/tro-thanh-ctv",
+        path_en: "/:language/chinh-sach/tro-thanh-ctv",
         component: PartnerPage
     }];
 

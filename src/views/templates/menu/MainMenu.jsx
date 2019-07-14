@@ -96,7 +96,7 @@ class MainMenu extends Base {
                     handleCloseMomal={this.handleCloseLogin.bind(this)}
                 />
                 <ul className="menu-responsive" id="menu-responsive">
-                    <Link to="/chinh-sach/tro-thanh-doi-tac" >
+                    <Link to="/chinh-sach/tro-thanh-ctv" >
                         <div className="btn" >{t("menu.btn")}</div>
                     </Link>
 

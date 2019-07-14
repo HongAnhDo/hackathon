@@ -36,6 +36,8 @@
     background-color: transparent;
 }
 
+.title-ip-register.form-input{
+    width: 250px;}
 .title-ip-register {
     width: 380px;
     text-align: left;
