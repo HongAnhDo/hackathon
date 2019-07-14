@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "name": "Tổ chức vì cộng đồng",
+        "verified": "Đã được xác nhận",
+        "approved": "",
+        "domain": "tc_cd@gmail.com"
+    }, 
+    {
+        "id": 2,
+        "name": "Quỹ bảo vệ quyền lợi trẻ em",
+        "verified": "Đã được xác nhận",
+        "approved": "",
+        "domain": "qbv_qlte@gmail.com"
+    }
+]

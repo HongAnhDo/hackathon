@@ -7,7 +7,7 @@ import { ContentPage } from './components/ContentPage';
 import ItemQuestion from './components/ItemQuestion';
 import { HeaderSubPage } from '../HeaderSubPage';
 import dataQuestions from '../../../dataTest/QuestionDatas.json';
-import listMenu from '../../../dataTest/ListMenu.json'
+import listMenu from '../../../dataTest/category.json'
 const { SubMenu } = Menu;
 
 class Faqs extends Component {
@@ -39,7 +39,6 @@ class Faqs extends Component {
 
 
     renderLeftComponent = () => {
-        const { lang } = this.props;
 
         return (
             <Menu
@@ -49,14 +48,11 @@ class Faqs extends Component {
                 mode="inline"
                 className="content-right">
                 {listMenu && listMenu.map((item, index) => (
-                    <SubMenu
+                    <Menu.Item
                         key={"sub" + index}
-                        title={<span>{lang == "en" ? item.category_en : item.category}</span>}
                     >
-                        {item.sub_category && item.sub_category.map((sub) =>
-                            <Menu.Item key={sub.id}>{lang == "en" ? sub.category_en : sub.category}</Menu.Item>
-                        )}
-                    </SubMenu>
+                     <span>{item.name}</span>
+                    </Menu.Item>
                 ))}
             </Menu>)
     }

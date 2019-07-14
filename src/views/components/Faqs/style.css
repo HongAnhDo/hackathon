@@ -15,19 +15,20 @@
     .ant-menu-vertical-left .ant-menu-item::after, 
     .ant-menu-vertical-right .ant-menu-item::after, 
     .ant-menu-inline .ant-menu-item::after{
-        content: "\f054" !important;
-        right: 35%;
+        /* content: "\f054" !important; */
+        right: 0px;
         position: absolute;
         font-family: FontAwesome !important;
         border-right: none;
-        padding-right: 16px;
-        font-weight: 400;
+        padding-right: 14px;
+        font-weight: 300;
     }
     li.ant-menu-item.ant-menu-item-selected , li.ant-menu-item.ant-menu-item-selected:focus
     {
         background-color: #fff;
         font-weight: bold;
     }
+    
     .ant-menu-item:hover,
     .ant-menu-item-active,
     .ant-menu:not(.ant-menu-inline) 
@@ -80,4 +81,8 @@
     }
     .list-question{
         position: relative;
+    }
+    li.ant-menu-item{
+        line-height: 48px;
+        border-bottom: 0.2px solid rgb(236, 236, 236);
     }

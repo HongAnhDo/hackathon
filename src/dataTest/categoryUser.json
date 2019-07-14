@@ -1,0 +1,19 @@
+[
+    {
+        "id": 1,
+        "name": "Bác sĩ"
+    },
+    {
+        "id": 2,
+        "name": "Cộng tác viên"
+    },
+    {
+        "id": 3,
+        "name": "Người dùng"
+    },
+   
+    {
+        "id": 4,
+        "name": "Quản trị viên"
+    }
+]

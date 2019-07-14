@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "name": "Môi trường tác động",
+        "description": "",
+        "parent_id": null
+    },
+    {
+        "id": 2,
+        "name": "Tình trạng tâm lý",
+        "description": "",
+        "parent_id": null
+    },
+    {
+        "id": 3,
+        "name": "Độ tuổi",
+        "description": "",
+        "parent_id": null
+    },
+    {
+        "id": 4,
+        "name": "Học đường",
+        "description": "",
+        "parent_id": 1
+    },
+    {
+        "id": 5,
+        "name": "Gia đình",
+        "description": "",
+        "parent_id": 1
+    },
+    {
+        "id": 6,
+        "name": "Xã hội",
+        "description": "",
+        "parent_id": 1
+    },
+    {
+        "id": 7,
+        "name": "Công việc",
+        "description": "",
+        "parent_id": 1
+    },
+    {
+        "id": 8,
+        "name": "Suy nghĩ tiêu cực",
+        "description": "",
+        "parent_id": 2
+    },
+    {
+        "id": 9,
+        "name": "Lo âu căng thẳng",
+        "description": "",
+        "parent_id": 2
+    },
+    {
+        "id": 10,
+        "name": "Trầm cảm",
+        "description": "",
+        "parent_id": 2
+    },
+    {
+        "id": 11,
+        "name": "Tự kỷ",
+        "description": "",
+        "parent_id": 2
+    },
+    {
+        "id": 12,
+        "name": "Dưới 12 tuổi",
+        "description": "",
+        "parent_id": 3
+    },
+    {
+        "id": 13,
+        "name": "Từ 12 đến 15 tuổi",
+        "description": "",
+        "parent_id": 3
+    },
+    {
+        "id": 14,
+        "name": "Từ 16 đến 29 tuổi",
+        "description": "",
+        "parent_id": 3
+    },
+    {
+        "id": 15,
+        "name": "Trên 30 tuổi",
+        "description": "",
+        "parent_id": 3
+    }
+]

@@ -162,7 +162,7 @@
     },
     "useful_area": {
         "convenient": {
-            "content": "Dễ dàng tìm kiếm, so sánh và đặt chiếc xe như ý với chỉ vài click chuột",
+            "content": "Khi cần tư vấn bạn chỉ cần ibox qua website, chúng tôi sẵn sàng hỗ trợ bạn để giải quyết vấn đề",
             "title": "Thuận tiện"
         },
         "opt": {
@@ -178,12 +178,12 @@
             "title": "Bảo hiểm"
         },
         "support": {
-            "content": "Có nhân viên hỗ trợ khách hàng trong suốt quá trình thuê xe",
-            "title": "Hỗ trợ 24/7"
+            "content": "Có sự hỗ trợ của các bác sỹ tâm lý",
+            "title": "Hỗ trợ nhanh chóng"
         },
         "title": "Sứ mệnh của chúng tôi",
         "trust": {
-            "content": "Các xe đều có thời gian sử dụng dưới 3 năm và được bảo dưỡng thường xuyên",
+            "content": "Chúng tôi có đội ngũ bác sỹ tâm lý chuyên sâu tham gia tình nguyện tư vấn hỗ trợ",
             "title": "Tin cậy"
         }
     },
@@ -729,10 +729,10 @@
         }
     },
     "partner_form" : {
-        "title": "Đăng ký làm đối tác",
+        "title": "Đăng ký trở thành CTV",
         "form": {
-            "name_label": "Tên đơn vị *",
-            "name_placeholder": "Nhập tên đơn vị ...",
+            "name_label": "Họ và tên *",
+            "name_placeholder": "Nhập họ và tên...",
             "phone_label": "Số điện thoại *",
             "phone_placeholder": "Nhập số điện thoại ...",
             "email_label": "Email *",
@@ -741,17 +741,17 @@
             "address_placeholder": "Nhập địa chỉ ...",
             "title_label": "Tiêu đề",
             "title_placeholder": "Nhập tiêu đề ...",
-            "content_label": "Nội dung",
+            "content_label": "Vì sao bạn lại muốn trở thành CTV của chúng tôi?",
             "content_placeholder": "Nhập nội dung ..."
         },
         "btn_register": "Đăng ký",
         "btn_back": "Quay lại trang chủ"
     },
     "partner_page": {
-        "title": "TRỞ THÀNH ĐỐI TÁC",
+        "title": "TRỞ THÀNH CỘNG TÁC VIÊN",
         "description": {
-            "p1": "Công ty cổ phần Chung xe xin gửi lời chào trân trọng tới các Đối tác,",
-            "p2": "hackathon là một nền tảng kết nối các đơn vị cho thuê xe cũng như cá nhân có xe nhàn rỗi với khách hàng cho thuê xe tự lái trên nền tảng trực tuyến và di dộng. Khách hàng có thể dễ dàng tìm kiếm, so  sánh giá, thuê xe và thanh toán một cách thuận lợi và tiết kiệm chi phí."
+            "p1": "Cộng đồng hỗ trợ trẻ em và phụ nữa 3HCD",
+            "p2": "Cộng đồng là nơi hỗ trợ tư vấn tâm lý hướng tới đối tượng là học sinh, nhằm tư vấn, giúp đỡ các em giải quyết các vấn đề trong cuộc sống, học tập "
         },
         "benefit": {
             "title": "Lợi ích khi cộng tác với hackathon",
