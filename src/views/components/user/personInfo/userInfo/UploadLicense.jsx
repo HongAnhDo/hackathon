@@ -4,7 +4,6 @@ import { translate } from 'react-i18next';
 import { reactLocalStorage } from 'reactjs-localstorage';
 import '../../css/UserInfo.css'
 import { Redirect } from "react-router-dom";
-import UserApi from '../../../../../actions/api/user/UserApi';
 import MyUtil from '../../../../../actions/MyUtil';
 import ReactLoading from 'react-loading';
 
@@ -58,8 +57,8 @@ class UploadLicense extends Base {
         this.setState({ isHoverBackImg: false })
     }
 
-    handleSaveFontImage = async (data) => {
-        let result = await UserApi.uploadProcedure(data);
+    handleSaveFontImage =  (data) => {
+        let result;
         if (result && result.message) alert(result.message)
         else if (result && result.code == "success") {
             this.setState({
@@ -71,8 +70,8 @@ class UploadLicense extends Base {
         else alert(this.props.t("announce.error_api"));
     }
 
-    handleSaveBackImage = async (data) => {
-        let result = await UserApi.uploadProcedure(data);
+    handleSaveBackImage =  (data) => {
+        let result ;
         console.log("user: ", result)
         if (result && result.message) alert(result.message)
         else if (result && result.code == "success")

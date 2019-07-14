@@ -4,7 +4,6 @@ import Base from '../../../../core/Base';
 import { email, phone, required } from '../../../../../actions/validate';
 import { Modal, ModalHeader, ModalBody, ModalFooter, FormGroup } from 'reactstrap';
 import '../../css/UserInfo.css'
-import UserApi from "../../../../../actions/api/user/UserApi";
 
 class DialogChangeInfo extends Base {
     constructor(props) {
@@ -62,7 +61,7 @@ class DialogChangeInfo extends Base {
         this.props.handleCloseMomal();
     }
 
-    handleSubmit = async () => {
+    handleSubmit =  () => {
         var { username, phoneNumber, userEmail, message } = this.state;
         var params = {
             user_acc_full_name: username.value,
@@ -70,10 +69,7 @@ class DialogChangeInfo extends Base {
             user_acc_phon: phoneNumber.value
         }
         var result = null;
-        await UserApi.update(params)
-            .then(data => result = data)
-            .catch(err => console.log(err))
-
+       
         if (result && result.code === "error") {
             message = result.message;
         }

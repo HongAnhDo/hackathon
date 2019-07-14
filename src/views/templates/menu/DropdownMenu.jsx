@@ -3,7 +3,6 @@ import Base from '../../core/Base';
 import { translate } from 'react-i18next';
 import { reactLocalStorage } from 'reactjs-localstorage';
 import { Link, Redirect } from 'react-router-dom'
-import UserApi from '../../../actions/api/user/UserApi';
 import {USER_INFO_TABS} from "../../../actions/constants";
 
 class DropdownMenu extends Base {
@@ -14,9 +13,9 @@ class DropdownMenu extends Base {
         })
     }
 
-    handleLogout = async () => {
+    handleLogout =  () => {
         var userInfo = reactLocalStorage.getObject("user.info", null)
-        var isLogout = userInfo ? await UserApi.logout() : false
+        // var isLogout = userInfo ? await UserApi.logout() : false
         // isLogout && this.props.handleLogout(isLogout);
     }
 

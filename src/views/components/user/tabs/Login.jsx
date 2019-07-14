@@ -5,7 +5,6 @@ import { password, required, emailAndPhone } from '../../../../actions/validate'
 import '../css/Tabs.css';
 import { FormGroup } from 'reactstrap';
 import OtherLogins from "./otherLogins/OtherLogins";
-import UserApi from "../../../../actions/api/user/UserApi";
 
 class Login extends Base {
     constructor(props) {
@@ -24,12 +23,12 @@ class Login extends Base {
         }
     }
 
-    handleSubmit = async (e) => {
+    handleSubmit =  (e) => {
         e.preventDefault();
         var { usernameInput, passwordInput } = this.state;
         var user = null;
 
-        var result = await UserApi.login({ user_acc_name: usernameInput.value, user_acc_pass: passwordInput.value })
+        var result
         if (result && result.message)
             this.setState({ message: result.message })
         else if (result && result.data) {

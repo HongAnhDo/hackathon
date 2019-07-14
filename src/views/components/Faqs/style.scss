@@ -1,0 +1,80 @@
+@import 'assets/scss/variables.scss';
+@import 'assets/scss/mixins.scss';
+.Faqs{
+    background-color: $greyLightColor;
+    .container-pag{
+        min-height: 400px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .ant-menu-vertical .ant-menu-item::after, 
+    .ant-menu-vertical-left .ant-menu-item::after, 
+    .ant-menu-vertical-right .ant-menu-item::after, 
+    .ant-menu-inline .ant-menu-item::after{
+        content: "\f054" !important;
+        font-family: FontAwesome !important;
+        border-right: none;
+        padding-right: 16px;
+        font-weight: 400;
+    }
+    li.ant-menu-item.ant-menu-item-selected , li.ant-menu-item.ant-menu-item-selected:focus
+    {
+        background-color: $whiteColor;
+        color:  $primaryColor;
+        font-weight: bold;
+    }
+    .ant-menu-item:hover,
+    .ant-menu-item-active,
+    .ant-menu:not(.ant-menu-inline) 
+    .ant-menu-submenu-open, 
+    .ant-menu-submenu-active,
+    .ant-menu-submenu-title:hover,
+    .ant-menu-submenu-selected{
+        color:  $primaryColor;
+
+    }
+    .ant-menu-inline, .ant-menu-vertical, .ant-menu-vertical-left{
+        border-right: none;
+    }
+    .ant-menu-submenu-vertical > 
+    .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::after, 
+    .ant-menu-submenu-vertical-left > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::after, 
+    .ant-menu-submenu-vertical-right > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::after, 
+    .ant-menu-submenu-inline > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::after, 
+    .ant-menu-submenu-vertical > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::before, 
+    .ant-menu-submenu-vertical-left > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::before, 
+    .ant-menu-submenu-vertical-right > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::before,
+     .ant-menu-submenu-inline > .ant-menu-submenu-title:hover 
+    .ant-menu-submenu-arrow::before{
+        background: linear-gradient(to right, $primaryColor, $primaryColor);
+    }
+
+    .ant-menu-submenu-title, li.ant-menu-item {
+        border-bottom: 0.2px solid $grayBlurColor;
+        font-size: 14px;
+        color: $textColor;
+        font-family: $openSansFont;
+    }
+    ul li.ant-menu-submenu.ant-menu-submenu-inline:last-child .ant-menu-submenu-title{
+        border-bottom: none;
+
+    }
+    ul li.ant-menu-submenu.ant-menu-submenu-inline.ant-menu-submenu-open .ant-menu-submenu-title{
+        border-bottom: 0.2px solid $grayBlurColor;
+
+    }
+    ul li.ant-menu-submenu.ant-menu-submenu-inline.ant-menu-submenu-open:last-child ul li.ant-menu-item:last-child{
+        border-bottom: none;
+    }
+    .ant-menu-submenu-open .ant-menu-submenu-title{
+        font-weight: bold;
+    }
+    .text-form-group.form-icon .icon{
+        left: inherit;
+        right: 16px;
+        top: -1px;
+    }
+    .list-question{
+        position: relative;
+    }
+}

@@ -8,7 +8,6 @@ import './css/ProductArea.css'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Image from 'react-image-webp';
-import LazyImage from '../../templates/customeView/LazyImage';
 
 class PartnerArea extends Base {
 

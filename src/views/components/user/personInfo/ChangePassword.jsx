@@ -6,7 +6,6 @@ import { required, password, confirmPassword } from '../../../../actions/validat
 import { Redirect } from "react-router-dom";
 import '../css/ChangePassword.css'
 import '../css/PersonInfo.css'
-import UserApi from '../../../../actions/api/user/UserApi';
 
 class ChangePassword extends Base {
 
@@ -86,16 +85,7 @@ class ChangePassword extends Base {
                 new_pass: newPass.value
             }
             var result = null;
-            await UserApi.changePassword(params)
-                .then(data => result = data)
-                .catch(err => console.log(err))
-            if (!result) alert(this.props.t("announce.error_network"));
-            else if (result && result.code === "error") {
-                error = result.message;
-            }
-            else if (result.data){
-                alert(this.props.t("announce.success_change_pass"));
-            }
+            
         }
         this.setState({ error })
     };

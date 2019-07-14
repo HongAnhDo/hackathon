@@ -2,19 +2,24 @@ import React from 'react';
 import { translate } from 'react-i18next';
 import Base from '../../../core/Base';
 import {HeaderSubPage} from '../../HeaderSubPage'
-import SearchField from "react-search-field";
-
+import './Background.css'
 class BackgroundArea extends Base {
-    onChange = () =>{
+    state ={
+        ipSearch: ""
+    }
+    onChange = (e) =>{
+        this.setState({ipSearch: e.target.value})
+
+    }
+    handleSearch =() =>{
         alert("aa")
+
     }
     renderRightComponentHeader = () =>(
-        <SearchField
-        placeholder="Search..."
-        onChange={this.onChange}
-        searchText="This is initial search text"
-        classNames="test-class"
-      />
+        <div class="search">
+        <span class="fa fa-search" onClick ={this.handleSearch}></span>
+        <input placeholder="Tìm kiếm chủ đề" value ={this.state.ipSearch}  onChange = {this.onChange}/>
+      </div>
     )
     
     render() {

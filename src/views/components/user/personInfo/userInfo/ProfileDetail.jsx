@@ -3,12 +3,10 @@ import Base from '../../../../core/Base'
 import { translate } from 'react-i18next';
 import { reactLocalStorage } from 'reactjs-localstorage';
 import '../../css/UserInfo.css'
-import DialogChangeInfo from './DialogChangeInfo';
 import icEdit from '../../icon/ic-pen.png';
 import { Redirect } from "react-router-dom";
 import icCamera from "../../icon/camera.png";
 import ModalUploadImage from './ModalUploadImage';
-import UserApi from '../../../../../actions/api/user/UserApi';
 
 class ProfileDetail extends Base {
 
@@ -52,8 +50,8 @@ class ProfileDetail extends Base {
         this.setState({ isHover: false })
     }
 
-    handleSaveImage = async (file) => {
-        let user = await UserApi.uploadAvatar(file);
+    handleSaveImage =  (file) => {
+        let user;
         console.log("user: ", user)
         if (user && user.message) alert(user.message)
         else if (user && user.code)
@@ -78,11 +76,7 @@ class ProfileDetail extends Base {
         if (!user) return <Redirect push to="/" />
         return (
             <div>
-                <DialogChangeInfo
-                    user={user}
-                    isOpenMomal={isOpenMomal}
-                    handleCloseMomal={this.handleCloseChangeInfo.bind(this)}
-                />
+              
                 <ModalUploadImage
                     isOpenMomal={isOpenUploadImage}
                     isSave={isSave}

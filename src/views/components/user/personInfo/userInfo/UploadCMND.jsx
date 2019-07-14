@@ -4,7 +4,6 @@ import { translate } from 'react-i18next';
 import { reactLocalStorage } from 'reactjs-localstorage';
 import '../../css/UserInfo.css'
 import { Redirect } from "react-router-dom";
-import UserApi from '../../../../../actions/api/user/UserApi';
 import ReactLoading from 'react-loading';
 import MyUtil from '../../../../../actions/MyUtil';
 
@@ -24,21 +23,19 @@ class UploadCMND extends Base {
         })
     }
 
-    handleChangeFontImg = async (e) => {
+    handleChangeFontImg =  (e) => {
         var file = e.target.files[0];
         if (file) {
             var url = URL.createObjectURL(file);
             this.setState({ fontImgUrl: url, isSaveFontImg: 1 });
-            await this.handleSaveFontImg({ file: file, proc_id: 1, proc_img_indx: 1 });
         }
     }
 
-    handleChangeBackImg = async (e) => {
+    handleChangeBackImg =  (e) => {
         var file = e.target.files[0];
         if (file) {
             var url = URL.createObjectURL(file);
             this.setState({ backImgUrl: url, isSaveBackImg: 1 });
-            await this.handleSaveBackImg({ file: file, proc_id: 1, proc_img_indx: 2 });
         }
     }
 
@@ -58,38 +55,12 @@ class UploadCMND extends Base {
         this.setState({ isHoverBackImg: false })
     }
 
-    handleSaveFontImg = async (data) => {
-        let result = await UserApi.uploadProcedure(data);
-        if (result && result.message) {
-            alert(result.message);
-            this.setState({ isSaveFontImg: 0 })
-        }
-        else if (result && result.code === "success")
-            this.setState({
-                isSaveFontImg: 2,
-                user: result.data,
-                fontImgUrl: MyUtil.getImgUrl(result.data, 1, 1, "/assets/images/icon/font_cmnd.svg")
-            })
-        else {
-            alert(this.props.t("announce.error_api"));
-        }
+    handleSaveFontImg =  (data) => {
+        
     }
 
-    handleSaveBackImg = async (data) => {
-        let result = await UserApi.uploadProcedure(data);
-        if (result && result.message) {
-            alert(result.message);
-            this.setState({ isSaveBackImg: 0 })
-        }
-        else if (result && result.code == "success")
-            this.setState({
-                isSaveBackImg: 2,
-                user: result.data,
-                backImgUrl: MyUtil.getImgUrl(result.data, 1, 2, "/assets/images/icon/back_cmnd.svg")
-            })
-        else {
-            alert(this.props.t("announce.error_api"));
-        }
+    handleSaveBackImg =  (data) => {
+        
     }
 
     render() {

@@ -1,13 +1,10 @@
 import React from "react";
 import { translate } from 'react-i18next';
-import ButtonCustome from 'react-validation/build/button';
 import { email, password, required, phone, confirmPassword } from '../../../../actions/validate';
 import '../css/Tabs.css'
 import { FormGroup, Button } from 'reactstrap';
 import 'rc-tabs/assets/index.css';
 import Base from "../../../core/Base";
-import OtherLogins from "./otherLogins/OtherLogins";
-import UserApi from "../../../../actions/api/user/UserApi";
 import { reactLocalStorage } from "reactjs-localstorage";
 
 class Register extends Base {
@@ -42,7 +39,7 @@ class Register extends Base {
         this.props.handleCloseMomal();
     }
 
-    handleSubmit = async (e) => {
+    handleSubmit =  (e) => {
         e.preventDefault();
 
         var { userInfo } = this.state;
@@ -51,7 +48,7 @@ class Register extends Base {
             user_acc_emai: userInfo.user_acc_emai.value,
             user_acc_pass: userInfo.user_acc_pass.value
         }
-        var result = await UserApi.register(data);
+        var result;
         if (!result) alert(this.props.t("announce.error_network"))
         if (result && result.code === "error") this.setState({ message: result.message })
         else if (result && result.data) {

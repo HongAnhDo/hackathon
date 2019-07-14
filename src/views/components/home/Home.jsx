@@ -3,10 +3,8 @@ import Base from '../../core/Base';
 import BackgroundArea from './backgroudArea/BackgroundArea';
 import UsefulArea from './UsefulArea';
 import ProductArea from './ProductArea';
-import HowitWorkArea from './HowitworkArea';
 import MediaArea from './MediaArea';
 import PartnerArea from './PartnerArea';
-import BookingFix from './BookingFix';
 import { reactLocalStorage } from '../../../../node_modules/reactjs-localstorage';
 import Notification from './Notification'
 import createHistory from 'history/createBrowserHistory';
@@ -90,16 +88,9 @@ export default class Home extends Base {
                     isAlert={isAlert}
                     changeAlert={this.changeAlert}
                 />
-                <BookingFix
-                    cities={cities}
-                    onChangeUrl={this.onChangeUrl}
-                    type={type}
-                    isAlert={isAlert}
-                    changeAlert={this.changeAlert}
-                />
+     
                 <UsefulArea />
                 <ProductArea />
-                <HowitWorkArea />
                 <MediaArea />
                 <PartnerArea />
                 <Notification />

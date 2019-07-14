@@ -25,11 +25,7 @@ class UsefulArea extends Base {
                                 <div className="tit">{t("useful_area.convenient.title")}</div>
                                 <p>{t("useful_area.convenient.content")}</p>
                             </div>
-                            <div className="opt">
-                                <img src="assets/images/icon/icon3.png"/>
-                                <div className="tit">{t("useful_area.price.title")}</div>
-                                <p>{t("useful_area.price.content")}</p>
-                            </div>
+
                         </div>
                         <div className="col-md-6">
                             <div className="opt">
@@ -42,11 +38,7 @@ class UsefulArea extends Base {
                                 <div className="tit">{t("useful_area.support.title")}</div>
                                 <p>{t("useful_area.support.content")}</p>
                             </div>
-                            <div className="opt">
-                                <img src="assets/images/icon/insurance.png"/>
-                                <div className="tit">{t("useful_area.security.title")}</div>
-                                <p>{t("useful_area.security.content")}</p>
-                            </div>
+                            
                         </div>
 
                     </div>

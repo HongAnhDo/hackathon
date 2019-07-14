@@ -7,7 +7,6 @@ import ChangePassword from './ChangePassword';
 import ProfileDetail from './userInfo/ProfileDetail'
 import PaymentInfo from './PaymentInfo'
 import { Redirect } from 'react-router-dom'
-import HistoryRentalList from './historyRental/HistoryRentalList';
 import { USER_INFO_TABS } from "../../../../actions/constants";
 import UserInfo from './userInfo/UserInfo';
 
@@ -61,7 +60,6 @@ class PersonInfo extends Base {
                         <MenuLeft value={value} handleChangeTab={this.handleChangeTab} />
                     </div>
                     <div className="col-lg-8 col-md-12">
-                        {value === 0 && <HistoryRentalList path={this.props.location.pathname} bookId={bookId}/>}
                         {value === 1 && <PaymentInfo />}
                         {value === 2 && <UserInfo />}
                         {value === 3 && <ChangePassword />}

@@ -1,0 +1,28 @@
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+.search {
+  position: relative;
+  color: #aaa;
+  font-size: 16px;
+  line-height: 398px;
+}
+
+.search {display: inline-block;}
+
+.search input {
+  width: 500px;
+  border: 1px solid #107d82;
+  height: 50px;
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+.search input { text-indent: 32px;}
+.search .fa-search { 
+  position: absolute;
+  top: 10px;
+  font-size: 24px;
+  left: 10px;
+  line-height: 378px;
+}
+
+.search .fa-search {left: auto; right: 20px;}

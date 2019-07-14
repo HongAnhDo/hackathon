@@ -1,56 +1,27 @@
 [
-	{
-		"part_id": 1,
-		"part_name": "Dichung",
-		"part_logo": "assets/images/partner/jpg/dichung.jpg",
-		"webp": "assets/images/partner/webp/dichung.webp"
-	},
+
 	{
 		"part_id": 2,
 		"part_name": "Eco Hồ Gươm",
-		"part_logo": "assets/images/partner/jpg/ecohoguom.jpg",
-		"webp": "assets/images/partner/webp/ecohoguom.webp"
+		"part_logo": "assets/images/partner/p1.png",
+		"webp": "assets/images/partner/p1.png"
 	},
 	{
 		"part_id": 3,
 		"part_name": "123XeNha",
-		"part_logo": "assets/images/partner/jpg/123xenha.jpg",
-		"webp": "assets/images/partner/webp/123xenha.webp"
+		"part_logo": "assets/images/partner/123xenha.jpg",
+		"webp": "assets/images/partner/123xenha.jpg"
 	},
 	{
 		"part_id": 4,
 		"part_name": "Công ty Cổ phần Ascar Việt Nam",
-		"part_logo": "assets/images/partner/jpg/Ascar.jpg",
-		"webp": "assets/images/partner/webp/Ascar.webp"
+		"part_logo": "assets/images/partner/Ascar.png",
+		"webp": "assets/images/partner/Ascar.png"
 	},
 	{
 		"part_id": 5,
 		"part_name": "Thuê xe tự lái Đà Nẵng 365",
-		"part_logo": "assets/images/partner/jpg/danang365.jpg",
-		"webp": "assets/images/partner/webp/danang365.webp"
-	},
-	{
-		"part_id": 6,
-		"part_name": "Công ty Triệu Bảo Ý",
-		"part_logo": "assets/images/partner/jpg/trieubaoy.jpg",
-		"webp": "assets/images/partner/webp/trieubaoy.webp"
-	},
-	{
-		"part_id": 7,
-		"part_name": "UIC",
-		"part_logo": "assets/images/partner/jpg/UIClogo.jpg",
-		"webp": "assets/images/partner/webp/UIClogo.webp"
-	},
-	{
-		"part_id": 8,
-		"part_name": "Baoviet Tokio Marine",
-		"part_logo": "assets/images/partner/jpg/BaoViet_logo.jpg",
-		"webp": "assets/images/partner/webp/BaoViet_logo.webp"
-	},
-	{
-		"part_id": 9,
-		"part_name": "Fubon insurance",
-		"part_logo": "assets/images/partner/jpg/fubon_logo.jpg",
-		"webp": "assets/images/partner/webp/fubon_logo.webp"
+		"part_logo": "assets/images/partner/p2.png",
+		"webp": "assets/images/partner/p2.png"
 	}
 ]

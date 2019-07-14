@@ -26,7 +26,7 @@ class MediaArea extends Base {
             infinite: true,
             slidesToShow: 3,
             slidesToScroll: 1,
-            autoplay: false,
+            autoplay: true,
             rows: 1,
             className: "center",
             centerMode: true,

@@ -9,9 +9,6 @@ import Footer from './templates/Footer';
 import { AuthProvider, AuthConsumer } from 'react-check-auth';
 import { reactLocalStorage } from 'reactjs-localstorage';
 import MyUtil from '../actions/MyUtil';
-import { MyConfig } from '../config/Config';
-
-const BASE_URL = MyConfig.getBaseUrl();
 
 class App extends Base {
     constructor(props) {
@@ -75,7 +72,7 @@ class App extends Base {
     render() {
         var user = reactLocalStorage.getObject("user.info", null);
         var token = user ? user.user_acc_tokn : "";
-        var authUrl = user ? (BASE_URL + "/users/verifyAuth") : "";
+        var authUrl = user ? ( "/users/verifyAuth") : "";
         var reqOptions = token && {
             'method': 'GET',
             'headers': {

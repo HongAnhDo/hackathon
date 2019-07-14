@@ -20,6 +20,8 @@
     .child-1{
         color:#ffffff;
         line-height: 240px;
+        padding: 0px;
+        width: 100%;
     }
     .child-2{
         /* background-color:#2b6e70 ; */

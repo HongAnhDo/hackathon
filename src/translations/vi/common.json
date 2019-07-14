@@ -76,7 +76,7 @@
             "contact_hotline3": "(Giờ hành chính)"
         },
         "copyright": {
-            "content": "Bản quyền © 2018 thuộc về hackathon.",
+            "content": "Bản quyền © 2019 thuộc về 3HCD.",
             "regulations": "Quy định",
             "rules": "Điều khoản"
         },
@@ -127,7 +127,7 @@
         "btn": "Tìm hiểu thêm",
         "holiday": "Chung xe dịp lễ tết",
         "service": "hackathon - Dịch vụ thiết thực vì lợi ích cộng đồng",
-        "title": "Truyền thông nói về chúng tôi",
+        "title": "Các sự kiện hàng năm",
         "video": "OtoSharing - Ứng dụng chia sẻ xe tự lái",
         "express": "hackathon nằm trong Top 15 Startup Việt 2018",
         "hackathon": "Ý tưởng “Booking.com trong lĩnh vực cho thuê xe ô tô tự lái”",
@@ -146,19 +146,19 @@
             "password": "Đổi mật khẩu",
             "payment": "Thông tin thanh toán"
         },
-        "btn": "Trở thành đối tác",
+        "btn": "Trở thành CTV",
         "home": "Về chúng tôi",
         "login": "Đăng nhập",
-        "promotion": "Khuyến mãi",
+        "promotion": "Sự kiện",
         "search": "Tra cứu đặt xe",
         "support": "Hỗ trợ",
         "register": "Đăng ký"
     },
     "partner_area": {
-        "title": "Đối tác của chúng tôi"
+        "title": "Các tổ chức bảo vệ"
     },
     "products": {
-        "title": "Sản phẩm nổi bật"
+        "title": "Các chủ đề nổi bật"
     },
     "useful_area": {
         "convenient": {
@@ -166,8 +166,8 @@
             "title": "Thuận tiện"
         },
         "opt": {
-            "content": "Hàng trăm loại xe đa dạng ở nhiều địa điểm trên cả nước, phù hợp với mọi mục đích của bạn",
-            "title": "Nhiều lựa chọn"
+            "content": "Mọi thông tin cá nhân của bạn đều được chúng tôi giữ bí mật",
+            "title": "Bảo mật"
         },
         "price": {
             "content": "Giá thuê được niêm yết công khai và rẻ hơn 10% so với giá truyền thống",
@@ -181,7 +181,7 @@
             "content": "Có nhân viên hỗ trợ khách hàng trong suốt quá trình thuê xe",
             "title": "Hỗ trợ 24/7"
         },
-        "title": "Lợi ích của hackathon",
+        "title": "Sứ mệnh của chúng tôi",
         "trust": {
             "content": "Các xe đều có thời gian sử dụng dưới 3 năm và được bảo dưỡng thường xuyên",
             "title": "Tin cậy"

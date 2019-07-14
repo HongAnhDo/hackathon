@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "category": "Tài xế",
+        "category_en": "Driver",
+        "title": "Đi riêng xe và Đi chung xe khác nhau như thế nào?",
+        "title_en": "What is the difference between booking on the website and booking directly the operator ?",
+        "parent_id": 0,
+        "content": "Đi riêng xe là trường hợp bạn đặt xe, taxi theo hình thức thông thường.Đi chung xe là trường hợp bạn đặt xe và sẵn sàng đi cùng hành khách khác để tiết kiệm chi phí. Khi bạn lựa chọn đi chung xe, ĐiChungTaxi sẽ tìm người cùng tuyến đường và ghép đi chung với bạn. Giá đi chung sẽ ít hơn giá đi riêng cùng tuyến ít nhất 40%.",
+        "content_en": "Booking online in website, you can:- Enjoy a new and convenient booking service.- Compare the price of different types of cars and make choice.",
+        "priority": 0
+    },
+    {
+        "id": 2,
+        "category": "Tài xế",
+        "category_en": "Driver",
+        "title": "Đi riêng xe và Đi chung xe khác nhau như thế nào?",
+        "title_en": "What is the difference between booking on the website and booking directly the operator ?",
+        "parent_id": 0,
+        "content": "Đi riêng xe là trường hợp bạn đặt xe, taxi theo hình thức thông thường.Đi chung xe là trường hợp bạn đặt xe và sẵn sàng đi cùng hành khách khác để tiết kiệm chi phí. Khi bạn lựa chọn đi chung xe, ĐiChungTaxi sẽ tìm người cùng tuyến đường và ghép đi chung với bạn. Giá đi chung sẽ ít hơn giá đi riêng cùng tuyến ít nhất 40%.",
+        "content_en": "Booking online in website, you can:- Enjoy a new and convenient booking service.- Compare the price of different types of cars and make choice.",
+        "priority": 0
+    },
+    {
+        "id": 3,
+        "category": "Tài xế",
+        "category_en": "Driver",
+        "title": "Đi riêng xe và Đi chung xe khác nhau như thế nào?",
+        "title_en": "What is the difference between booking on the website and booking directly the operator ?",
+        "parent_id": 0,
+        "content": "Đi riêng xe là trường hợp bạn đặt xe, taxi theo hình thức thông thường.Đi chung xe là trường hợp bạn đặt xe và sẵn sàng đi cùng hành khách khác để tiết kiệm chi phí. Khi bạn lựa chọn đi chung xe, ĐiChungTaxi sẽ tìm người cùng tuyến đường và ghép đi chung với bạn. Giá đi chung sẽ ít hơn giá đi riêng cùng tuyến ít nhất 40%.",
+        "content_en": "Booking online in website, you can:- Enjoy a new and convenient booking service.- Compare the price of different types of cars and make choice.",
+        "priority": 0
+    },
+    {
+        "id": 4,
+        "category": "Tài xế",
+        "category_en": "Driver",
+        "title": "Đi riêng xe và Đi chung xe khác nhau như thế nào?",
+        "title_en": "What is the difference between booking on the website and booking directly the operator ?",
+        "parent_id": 0,
+        "content": "Đi riêng xe là trường hợp bạn đặt xe, taxi theo hình thức thông thường.Đi chung xe là trường hợp bạn đặt xe và sẵn sàng đi cùng hành khách khác để tiết kiệm chi phí. Khi bạn lựa chọn đi chung xe, ĐiChungTaxi sẽ tìm người cùng tuyến đường và ghép đi chung với bạn. Giá đi chung sẽ ít hơn giá đi riêng cùng tuyến ít nhất 40%.",
+        "content_en": "Booking online in website, you can:- Enjoy a new and convenient booking service.- Compare the price of different types of cars and make choice.",
+        "priority": 0
+    }
+]

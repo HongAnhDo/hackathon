@@ -4,7 +4,6 @@ import { translate } from 'react-i18next';
 import { reactLocalStorage } from 'reactjs-localstorage';
 import '../../css/UserInfo.css'
 import { Redirect } from "react-router-dom";
-import UserApi from '../../../../../actions/api/user/UserApi';
 import MyUtil from '../../../../../actions/MyUtil';
 import ReactLoading from 'react-loading';
 
@@ -39,8 +38,8 @@ class UploadSHK extends Base {
         this.setState({ isHover: false })
     }
 
-    handleSaveFile = async (data) => {
-        let result = await UserApi.uploadProcedure(data);
+    handleSaveFile =  (data) => {
+        let result ;
         console.log("user: ", result)
         if (result && result.message) alert(result.message)
         else if (result && result.code == "success")

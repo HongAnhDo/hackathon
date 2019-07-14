@@ -4,7 +4,6 @@ import { translate } from 'react-i18next';
 import { reactLocalStorage } from 'reactjs-localstorage';
 import { Redirect, Link } from 'react-router-dom';
 import '../css/MenuLeft.css'
-import UserApi from '../../../../actions/api/user/UserApi';
 import { USER_INFO_TABS } from "../../../../actions/constants"
 
 class MenuLeft extends Base {
@@ -52,8 +51,7 @@ class MenuLeft extends Base {
         this.handleActive(4);
         this.props.handleChangeTab(4);
         var user = reactLocalStorage.getObject("user.info", null);
-        var isLogout = user ? await UserApi.logout(user) : false
-        this.setState({ moveToHome: isLogout });
+        
     }
 
 
