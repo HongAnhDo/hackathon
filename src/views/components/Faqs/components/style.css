@@ -29,18 +29,22 @@
 .item-question{
     margin-bottom:8px;
     cursor: pointer;
+    text-align: left;
+    background-color: #f4f5f7;
 }
     .title-question{
-        padding: 10px;
+        padding: 10px 35px;
     }
     .title-question.act{
         background-color: #107d82;
         color: #ffffff;
         font-weight: bold;
+        margin: 0px;
+
 
     }
     .icon{
-        right: 0px;
+        right: 10px;
         position: absolute;
         font-size: 20px;
     }
@@ -48,9 +52,9 @@
         color: #ffffff;
     }
     .content-question{
-        padding: 16px 0px;
+        padding: 16px 20px;
     }
     .text-title{
-        margin-right: 20px;
+        /* margin-right: 20px; */
     }
 

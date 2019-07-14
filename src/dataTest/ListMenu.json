@@ -1,0 +1,53 @@
+[
+    {
+        "id": 1,
+        "category": "Khách hàng",
+        "category_en": "Customer",
+        "sub_category": [
+            {
+                "id": 2,
+                "category": "Hướng dẫn đặt xe",
+                "category_en": "Guide booking"
+            },
+            {
+                "id": 3,
+                "category": "Khiếu nại",
+                "category_en": "Complaint"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "category": "Tài xế",
+        "category_en": "Driver",
+        "sub_category": [
+            {
+                "id": 5,
+                "category": "Hướng dẫn đặt xe",
+                "category_en": "Guide booking"
+            },
+            {
+                "id": 6,
+                "category": "Khiếu nại",
+                "category_en": "Complaint"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "category": "Đối tác",
+        "category_en": "Partner",
+        "sub_category": [
+            {
+                "id": 8,
+                "category": "Hướng dẫn đặt xe",
+                "category_en": "Guide booking"
+            },
+            {
+                "id": 9,
+                "category": "Khiếu nại",
+                "category_en": "Complaint"
+            }
+        ]
+    }
+]

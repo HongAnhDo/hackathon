@@ -17,7 +17,7 @@ import PersonInfo from '../components/user/personInfo/PersonInfo';
 import Promotion from '../components/company/promotion/Promotion';
 import PartnerPage from '../components/home/PartnerPage';
 import MyUtil from './MyUtil';
-
+import FAQ from '../components/Faqs'
 const routes = [
     {
         path: "/",
@@ -47,7 +47,7 @@ const routes = [
     {
         path: "/introduction/about",
         path_en: "/:language/introduction/about",
-        component: Company
+        component: FAQ
     },
     {
         path: "/introduction/partner",

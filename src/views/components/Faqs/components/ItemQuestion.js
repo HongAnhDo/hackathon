@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
-import './style.scss';
+import './style.css';
 import { Icon } from 'antd';
 import { Collapse } from 'reactstrap';
 

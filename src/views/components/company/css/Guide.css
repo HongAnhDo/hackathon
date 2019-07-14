@@ -108,7 +108,7 @@
 }
 
 .item-question{
-    width: auto;
+    /* width: auto;
     height: 90px;
     border-radius: 8px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
@@ -123,7 +123,7 @@
     letter-spacing: normal;
     text-align: left;
     color: #000;
-    vertical-align: middle;
+    vertical-align: middle; */
 }
 .item-answer{
     width: auto;

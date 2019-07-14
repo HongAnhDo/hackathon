@@ -1,7 +1,11 @@
-@import 'assets/scss/variables.scss';
-@import 'assets/scss/mixins.scss';
+
 .Faqs{
-    background-color: $greyLightColor;
+    /* background-color: #bcbcbc; */
+}
+.ant-menu-submenu{
+    line-height: 50px;
+    /* border: 0.5px solid #bcbcbc; */
+}
     .container-pag{
         min-height: 400px;
         padding-top: 20px;
@@ -12,6 +16,8 @@
     .ant-menu-vertical-right .ant-menu-item::after, 
     .ant-menu-inline .ant-menu-item::after{
         content: "\f054" !important;
+        right: 35%;
+        position: absolute;
         font-family: FontAwesome !important;
         border-right: none;
         padding-right: 16px;
@@ -19,8 +25,7 @@
     }
     li.ant-menu-item.ant-menu-item-selected , li.ant-menu-item.ant-menu-item-selected:focus
     {
-        background-color: $whiteColor;
-        color:  $primaryColor;
+        background-color: #fff;
         font-weight: bold;
     }
     .ant-menu-item:hover,
@@ -30,7 +35,7 @@
     .ant-menu-submenu-active,
     .ant-menu-submenu-title:hover,
     .ant-menu-submenu-selected{
-        color:  $primaryColor;
+        color:  #107d82;
 
     }
     .ant-menu-inline, .ant-menu-vertical, .ant-menu-vertical-left{
@@ -46,21 +51,20 @@
     .ant-menu-submenu-vertical-right > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::before,
      .ant-menu-submenu-inline > .ant-menu-submenu-title:hover 
     .ant-menu-submenu-arrow::before{
-        background: linear-gradient(to right, $primaryColor, $primaryColor);
+        background: linear-gradient(to right, #107d82, #107d82);
     }
 
     .ant-menu-submenu-title, li.ant-menu-item {
-        border-bottom: 0.2px solid $grayBlurColor;
+        /* border-bottom: 0.2px solid "#333"; */
         font-size: 14px;
-        color: $textColor;
-        font-family: $openSansFont;
+  
     }
     ul li.ant-menu-submenu.ant-menu-submenu-inline:last-child .ant-menu-submenu-title{
         border-bottom: none;
 
     }
     ul li.ant-menu-submenu.ant-menu-submenu-inline.ant-menu-submenu-open .ant-menu-submenu-title{
-        border-bottom: 0.2px solid $grayBlurColor;
+        /* border-bottom: 0.2px solid #bcbcbc; */
 
     }
     ul li.ant-menu-submenu.ant-menu-submenu-inline.ant-menu-submenu-open:last-child ul li.ant-menu-item:last-child{
@@ -77,4 +81,3 @@
     .list-question{
         position: relative;
     }
-}

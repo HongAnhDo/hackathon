@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "categoryId": "1",
+        "userId": "3",
+        "content": "Em nên làm gì khi bị bạn quây đánh hội đồng ở trường?",
+        "publish_at": "13/7/2019",
+        "status": "Đã phê duyệt"
+    },
+    {
+        "id": 2,
+        "categoryId": "1",
+        "userId": "7",
+        "content": "Em là học sinh mới vào trường. Các bạn trong lớp hầu như đã thân nhau từ trước. Trong lớp có một nhóm bạn hay bắt nạt các bạn yếu và họ chọn em làm mục tiêu. Em có nên kể việc bị bắt nạt cho bố mẹ biết hay không?",
+        "publish_at": "10/7/2019",
+        "status": "Đã phê duyệt"
+    },
+    {
+        "id": 3,
+        "categoryId": "1",
+        "userId": "9",
+        "content": "Thầy giáo dạy môn Toán của em rất giỏi, tuy nhiên cũng rất nghiêm khắc. Mỗi khi học môn Toán, không khí lớp em tràn đầy căng thẳng và lo sợ khi thầy có những hình phạt khắc nghiệt đối với các bạn học kém như: phạt quỳ, phạt tát, đánh đập… Trong trường hợp này, em cũng như lớp em nên làm gì ạ?",
+        "publish_at": "10/7/2019",
+        "status": "Đã phê duyệt"
+    },
+    {
+        "id": 4,
+        "categoryId": "2",
+        "userId": "10",
+        "content": "Bố em thường xuyên đánh đập mẹ em, nhất là những lúc nhậu nhẹt say sỉn. Em nên làm gì trong tình huống này?",
+        "publish_at": "10/6/2019",
+        "status": "Đã phê duyệt"
+    },
+    {
+        "id": 5,
+        "categoryId": "2",
+        "userId": "11",
+        "content": "Chồng tôi có suy nghĩ nên dạy con bằng hành động, thương cho roi cho vọt thì sau này con mới ngoan ngoãn, nghe lời; tuy nhiên, có những trận đòn tôi cảm thấy thái quá, những lúc anh ấy nóng lên đến tôi cũng không can nổi, thậm chí tôi thấy gắt quá, can lại thì bị đánh lây. Theo các bạn, trong trường hợp này, tôi nên làm gì?",
+        "publish_at": "10/6/2019",
+        "status": "Đã phê duyệt"
+    },
+    {
+        "id": 6,
+        "categoryId": "3",
+        "userId": "12",
+        "content": "Từ khi học Đại học, đột nhiên da mặt tôi xuất hiện rất nhiều mụn, đi cùng với đó là các vết thâm sẹo. Điều này khiên tôi vô cùng tự ti khi giao tiếp với người đối diện. Tôi nên làm gì bây giờ?",
+        "publish_at": "1/7/2019",
+        "status": "Đã phê duyệt"
+    },
+    {
+        "id": 7,
+        "categoryId": "3",
+        "userId": "3",
+        "content": "Em là một người ăn chay trường. Việc này khá khó khăn và mất thời gian khi cố gắng giải thích với người thân bạn bè về quan niệm cá nhân. Một số người còn tỏ ra thái độ khi em nói mình ăn chay. Em nên làm sao để mọi người hiểu cho mình và không biểu thị thái độ như vậy nữa?",
+        "publish_at": "15/5/2019",
+        "status": "Đã phê duyệt"
+    },
+    {
+        "id": 8,
+        "categoryId": "4",
+        "userId": "7",
+        "content": "-	Em là thành viên mới của công ty nên hầu như có việc gì mọi người cũng nhờ vả em kể cả khi họ không bận gì, em cảm thấy mình bị lợi dụng và khó xử không biết từ chối làm sao? Mọi người giúp em với!",
+        "publish_at": "15/6/2019",
+        "status": "Đã phê duyệt"
+    },
+    {
+        "id": 9,
+        "categoryId": "4",
+        "userId": "10",
+        "content": "Tôi cảm thấy căng thẳng khi làm việc, đồng thời cũng có cảm giác không muốn thức dậy mỗi sáng, không muốn đi làm vì công việc rất căng thẳng và áp lực. Tôi có nên cho sếp biết về việc này?",
+        "publish_at": "15/6/2019",
+        "status": "Đã phê duyệt"
+    }
+]

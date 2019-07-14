@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Container } from 'reactstrap';
-import 'antd/dist/antd.css';
+// import 'antd/dist/antd.css';
 import { Menu, Icon } from 'antd';
-import './style.scss'
+import './style.css'
 import { ContentPage } from './components/ContentPage';
 import ItemQuestion from './components/ItemQuestion';
 import { HeaderSubPage } from '../HeaderSubPage';
@@ -44,7 +44,7 @@ class Faqs extends Component {
         return (
             <Menu
                 onClick={this.handleClick}
-                style={{ width: 256 }}
+                style={{ width: 256, boxShadow: 'box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.06)' }}
                 selectedKeys={this.state.selectedKeys}
                 mode="inline"
                 className="content-right">
@@ -62,14 +62,10 @@ class Faqs extends Component {
     }
 
     renderRightComponentHeader = () => (
-        <TextInput
-            placeholder={this.props.lang == "en" ? "Enter question here" : "Nhập câu hỏi ở đây"}
-            className='input-search'
-            onChange={this.handleChange}
-            value={this.state.search}
-            name="search"
-            icon={<Icon type="search" onClick={this.handleSearch} />}
-        />
+        <div class="search">
+            <span class="fa fa-search" onClick={this.handleSearch}></span>
+            <input placeholder="Tìm kiếm chủ đề" value={this.state.ipSearch} onChange={this.onChange} />
+        </div>
     )
     renderRightComponent = () => {
         const { questions } = this.state;
@@ -84,25 +80,28 @@ class Faqs extends Component {
 
     render() {
         return (
-            <div className="Faqs">
-                <HeaderSubPage
-                    idTitle="footer.menu.faq"
-                    rightComponent={this.renderRightComponentHeader}
-                    type={2}
-                />
-                <Container className="container-pag">
-                    <ContentPage
-                        leftComponent={this.renderLeftComponent}
-                        rightComponent={this.renderRightComponent}
-                    />
-                </Container>
+            <div>
+                <div className="container-page-sub">
+                    <div className="Faqs">
+
+                        <HeaderSubPage
+                            idTitle="footer.menu.faq"
+                            rightComponent={this.renderRightComponentHeader}
+                            type={2}
+                        />
+                        <Container className="container-pag" style ={{paddingTop:"30px"}}>
+                            <ContentPage
+                                leftComponent={this.renderLeftComponent}
+                                rightComponent={this.renderRightComponent}
+                            />
+                        </Container>
+                    </div>
+                </div>
             </div>
         )
     }
 }
-const mapStateToProps = state => ({
-    lang: state.lang,
-})
 
-export default connect(mapStateToProps)(Faqs)
+
+export default Faqs
 
