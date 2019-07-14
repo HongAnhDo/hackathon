@@ -3,16 +3,18 @@ import { translate } from 'react-i18next';
 import Base from '../../../core/Base';
 import {HeaderSubPage} from '../../HeaderSubPage'
 import './Background.css'
+import {Redirect} from 'react-router-dom'
 class BackgroundArea extends Base {
     state ={
-        ipSearch: ""
+        ipSearch: "",
+        goToCategory: false
     }
     onChange = (e) =>{
         this.setState({ipSearch: e.target.value})
 
     }
     handleSearch =() =>{
-        alert("aa")
+        this.setState({goToCategory: true})        
 
     }
     renderRightComponentHeader = () =>(
@@ -23,6 +25,9 @@ class BackgroundArea extends Base {
     )
     
     render() {
+        if(this.state.goToCategory){
+            return <Redirect push to = "/ask"/>
+        }
         return (
             <section className="background-area">
                 <HeaderSubPage

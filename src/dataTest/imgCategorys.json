@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name": "assets/images/p1.png",
+        "description": "",
+        "parent_id": null,
+        "title":"Bạo lực"
+    },
+    {
+        "id": 2,
+        "name": "assets/images/p2.png",
+        "description": "",
+        "parent_id": null,
+        "title": "Bạo lực"
+    },
+    {
+        "id": 3,
+        "name": "assets/images/p3.png",
+        "description": "",
+        "parent_id": null,
+        "title": "Công việc"
+    },
+    {
+        "id": 4,
+        "name": "assets/images/p4.png",
+        "description": "",
+        "parent_id": 1,
+        "title": "Căng thẳng"
+    },
+    {
+        "id": 5,
+        "name": "assets/images/p5.png",
+        "description": "",
+        "parent_id": 1,
+        "title": "Tự kỷ"
+    },
+    {
+        "id": 6,
+        "name": "assets/images/p6.png",
+        "description": "",
+        "parent_id": 1, 
+        "title": "Tự kỷ"
+    },
+    {
+        "id": 7,
+        "name": "assets/images/p7.png",
+        "description": "",
+        "parent_id": 1,
+        "title": "Trầm cảm"
+    }
+]

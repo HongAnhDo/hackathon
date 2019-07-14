@@ -14,6 +14,17 @@
     color: #087e83 !important
 }
 
+.title-ctgr{
+    top: 88px;
+    /* left: -89px; */
+    z-index: 2;
+    margin-left: 145px;
+    font-size: 24px;
+    font-weight: bold;
+    color: orange;
+    background-color: white;
+    padding: 10px;
+}
 .slick-prev:before{
     content: '\f104' !important;
 }
